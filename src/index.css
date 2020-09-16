@@ -1,0 +1,22 @@
+/* Footer */
+
+.footer {
+    background-color: black;
+}  
+  a.github {
+    color: white;
+    align-items: center;
+  }
+
+  a.linkedin {
+    color: #4968ad;
+    text-align: center;
+  }
+  a.twitter {
+    color: 4968ad;
+    align-items: center;
+  }
+  a.instagram {
+    color: rgb(160, 49, 64);
+    align-items: center;
+  }
