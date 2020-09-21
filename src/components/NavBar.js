@@ -1,14 +1,14 @@
 import React from 'react';
-
 import { Link } from 'react-scroll';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import '../index.css'
 
 const NavBar = () => {
   return (
-    <div>
-      <Navbar fixed="top" expand="sm">
+    <div >
+      <Navbar sticky="top" expand="sm">
         <Navbar.Brand to="home" href="#home">James Smith</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link
@@ -70,6 +70,8 @@ const NavBar = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+
+      
     </div>
   );
 };
