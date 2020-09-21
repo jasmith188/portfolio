@@ -9,7 +9,7 @@ import Image6 from '../images/mongo.png'
 
 function Skills() {
   return (
-    <div>
+    <div className='skills-container-whole'>
       <div className="inner">
         <div className="header">
           <h1>My Skills</h1>
@@ -32,7 +32,7 @@ function Skills() {
               <div class="img">
                 <img src={Image2} alt="css" className='skill-icon' />
               </div>
-              <h3>CSS</h3>
+              <h3>CSS 3</h3>
             </div>
             <p>
               Lorem ikslkjsdfj dfjl dfl kjh dfkjl dfjd lkfj djjejsjnabsodie
@@ -68,7 +68,7 @@ function Skills() {
               <div class="img">
                 <img src={Image5} alt="node" className='skill-icon' />
               </div>
-              <h3>MySQL</h3>
+              <h3>Node.js</h3>
             </div>
             <p>
               Lorem ikslkjsdfj dfjl dfl kjh dfkjl dfjd lkfj djjejsjnabsodie
@@ -80,7 +80,7 @@ function Skills() {
               <div class="img">
                 <img src={Image6} alt="Mongo" className='skill-icon' />
               </div>
-              <h3>MySQL</h3>
+              <h3>MongoDB</h3>
             </div>
             <p>
               Lorem ikslkjsdfj dfjl dfl kjh dfkjl dfjd lkfj djjejsjnabsodie
