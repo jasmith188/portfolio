@@ -6,7 +6,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 const NavBar = () => {
   return (
     <div>
-      <Navbar sticky="top" expand="sm">
+      <Navbar fixed="top" expand="sm">
         <Navbar.Brand to="home" href="#home">James Smith</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
