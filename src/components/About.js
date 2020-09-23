@@ -18,21 +18,21 @@ const About = () => {
           </div>
 
           <div className="col-md-7 text-md-left ml-3 mt-3">
-            <h1>Hi, I'm James Smith</h1>
+            <h1>Hi, I'm James Smith.</h1>
             <p>
               I'm a
               <Typical
                 loop={Infinity}
                 wrapper="b"
                 steps={[
-                  ' developer 💻',
-                  1000,
-                  ' gadget nerd 🤓',
-                  1000,
-                  ' former chef 👨‍🍳',
-                  1000,
-                  ' lover of all sports 🦮 🐈',
-                  1000,
+                  ' developer 💻.',
+                  900,
+                  ' gadget nerd 🤓.',
+                  900,
+                  ' former chef 👨‍🍳.',
+                  900,
+                  // ' fan of 🏀 and 🏈 I have 2 🐈 🐈',
+                  // 900,
                 ]}
               />
             </p>
