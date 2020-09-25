@@ -12,7 +12,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-4 offset-md-1 mx-3 my-3">
             <div className="view overlay">
-              <img src={Image1} height="350px" width="290px" alt={'error'} />
+              <img src={Image1} height="380px" width="auto" alt={'error'} />
               <div className="mask rgba-white-slight"></div>
             </div>
           </div>
@@ -20,19 +20,19 @@ const About = () => {
           <div className="col-md-7 text-md-left ml-3 mt-3">
             <h1>Hi, I'm James Smith.</h1>
             <p>
-              I'm a
+              I'm
               <Typical
                 loop={Infinity}
                 wrapper="b"
                 steps={[
-                  ' developer 💻.',
+                  ' a developer 💻.',
                   900,
-                  ' gadget nerd 🤓.',
+                  ' a former fine-dining chef 👨‍🍳.',
                   900,
-                  ' former chef 👨‍🍳.',
+                  ' always trying to learn something new 🤓.',
                   900,
-                  // ' fan of 🏀 and 🏈 I have 2 🐈 🐈',
-                  // 900,
+                  ' an outdoor enthusiast 🤿 🚴🏻‍♂️ 🏄‍♂️ 🏀 🏈',
+                  900,
                 ]}
               />
             </p>
