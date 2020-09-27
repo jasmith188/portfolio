@@ -5,7 +5,7 @@ import Image1 from '../images/profile.jpeg';
 
 // import Image from '../images/mountain.jpg';
 
-const About = () => {
+const About = ({ name, paragraph, paragraph2, authorImage }) => {
   return (
     <div className="about">
       <div className="jumbotron text-center hoverable p-4">
@@ -18,7 +18,7 @@ const About = () => {
           </div>
 
           <div className="col-md-7 text-md-left ml-3 mt-3">
-            <h1>Hi, I'm James Smith.</h1>
+            <h1>Hi, I'm {name}.</h1>
             <p>
               I'm
               <Typical
@@ -37,21 +37,14 @@ const About = () => {
               />
             </p>
 
-            <p>
-              Hello, my name is James Smith and I have recently recieved a
-              Certificate in Full Stack Coding at the University of Central
-              Florida. I have learned the fundamentals of different Languages
-              and Applications used in front and back end development. I'm
-              looking forward to contributing to my team's success by
-              collaboratively creating different projects and applications.
-            </p>
-            <p>
-              Working in the hectic restaurant business for the past 16 years
-              has honed my skills in teamwork, time-management and dealing with
-              ambiguity. These skills have allowed me to successfully transition
-              my career from a chef to a Full Stack Developer.
-            </p>
-            <Button variant="outline-success">Click To View My Resume</Button>
+            <p>{paragraph}</p>
+            <p>{paragraph2}</p>
+            <Button
+              variant="outline-success"
+              href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:5751e841-0449-4830-aeb5-62ab60f282fc"
+            >
+              Click To View My Resume
+            </Button>
             {''}
           </div>
         </div>
