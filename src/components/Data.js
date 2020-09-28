@@ -27,9 +27,10 @@ export default {
       id: 1, //DO NOT CHANGE THIS (Please)😅
       title: 'WeatherToday', //Project Title - Add Your Project Title Here
       // Image Size Should be (300X300 px)
-      imageSrc: 'https://via.placeholder.com/300',
+      imageSrc: 'assets/weathertoday.png',
       //Project URL - Add Your Project Url Here
       url: 'https://jasmith188.github.io/WeatherToday/',
+      // github: 'https://github.com/jasmith188/WeatherToday',
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅

@@ -109,7 +109,7 @@ const NavBar = () => {
             >
               Contact
             </Nav.Link>
-            <NavDropdown title="Projects" id="collasible-nav-dropdown">
+            <NavDropdown  className='ml-auto' title="Projects" id="collasible-nav-dropdown">
               <NavDropdown.Item
                 spy={true}
                 smooth={true}

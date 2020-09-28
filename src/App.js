@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './components/NavBar';
 import About from './components/About';
-// import Portfolio from './components/Portfolio';
+import Portfolio from './components/Portfolio';
 // import Contact from './components/Contact';
 // import Skills from './components/Skills';
 import data from './components/Data';
@@ -21,7 +21,7 @@ function App() {
       />
       {/* <Skills /> */}
       {/* <Resume /> */}
-      {/* <Portfolio /> */}
+      <Portfolio projects={data.projects}/>
       {/* <Contact /> */}
       {/* <Footer /> */}
     </div>

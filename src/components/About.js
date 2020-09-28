@@ -18,7 +18,7 @@ const About = ({ name, paragraph, paragraph2, authorImage }) => {
           </div>
 
           <div className="col-md-7 text-md-left ml-3 mt-3">
-            <h1>Hi, I'm {name}.</h1>
+            <h1 className='about-intro'>Hi, I'm {name}.</h1>
             <p>
               I'm
               <Typical
@@ -39,7 +39,7 @@ const About = ({ name, paragraph, paragraph2, authorImage }) => {
 
             <p>{paragraph}</p>
             <p>{paragraph2}</p>
-            <Button
+            <Button className='resume-button'
               variant="outline-success"
               href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:5751e841-0449-4830-aeb5-62ab60f282fc"
             >
