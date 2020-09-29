@@ -14,7 +14,7 @@ import {
 
 const Project = ({ projects }) => {
   return (
-    <MDBContainer className="mt-5 text-center">
+    <MDBContainer id='project' className="mt-5 text-center">
       <MDBRow>
         <MDBCol>
           {projects.map((project) => (
