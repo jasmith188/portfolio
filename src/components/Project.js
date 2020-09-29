@@ -14,32 +14,34 @@ import {
 
 const Project = ({ projects }) => {
   return (
-    <MDBContainer id='project' className="mt-5 text-center">
+    <MDBContainer id="project" className="mt-5 text-center">
       <MDBRow>
         <MDBCol>
           {projects.map((project) => (
             <MDBJumbotron>
               <MDBCardBody>
                 <MDBCardTitle className="h2">{project.title}</MDBCardTitle>
-                <MDBCardImage
-                  src={project.imageSrc}
-                  className="img-fluid"
-                />
+                <MDBCardImage src={project.imageSrc} className="img-fluid" />
                 <p className="blue-text my-4 font-weight-bold">
                   {project.tools}
                 </p>
-                <MDBCardText>
-                 {project.info}
-                </MDBCardText>
+                <MDBCardText>{project.info}</MDBCardText>
                 <hr className="my-4" />
-                <div className="pt-2">
-                  <MDBBtn href={project.demo} color="primary" className="waves-effect">
-                    Buy now <MDBIcon far icon="gem" />
+                <div className="btn-toolbar">
+                  <MDBBtn
+                    href={project.demo}
+                    color="primary"
+                    className="waves-effect"
+                  >
+                    App <MDBIcon far icon="gem" />
                   </MDBBtn>
-                  <MDBBtn href={project.demo} color="primary" className="waves-effect">
-                    Buy now <MDBIcon far icon="gem" />
+                  <MDBBtn
+                    href={project.demo}
+                    color="primary"
+                    className="waves-effect"
+                  >
+                    Github <MDBIcon far icon="gem" />
                   </MDBBtn>
-                  
                 </div>
               </MDBCardBody>
             </MDBJumbotron>

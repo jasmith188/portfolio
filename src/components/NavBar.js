@@ -1,30 +1,28 @@
 import React from 'react';
 // import { Link } from 'react-scroll';
 import { Navbar, Nav } from 'react-bootstrap';
-import Image from '../images/initials.png';
+// import Image from '../images/initials.png';
 import '../App.css';
 
 const NavBar = () => {
   return (
-    <div>
+    <div className="top-navbar">
       <Navbar
         sticky="top"
         collapseOnSelect
         expand="sm"
         bg="dark"
         variant="dark"
-        float-xs-right
       >
-        <Navbar.Brand src={Image}to="home" href="#home">
+        <Navbar.Brand to="home" href="#home">
           JS
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse className="navbar-collapse" id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link
               className="ml-auto"
-              spy={true}
-              smooth={true}
+              
               offset={-70}
               duration={1000}
               to="about"
@@ -34,8 +32,7 @@ const NavBar = () => {
             </Nav.Link>
             <Nav.Link
               className="ml-auto"
-              spy={true}
-              smooth={true}
+             
               offset={-70}
               duration={1000}
               to="project"
@@ -45,8 +42,7 @@ const NavBar = () => {
             </Nav.Link>
             <Nav.Link
               className="ml-auto"
-              spy={true}
-              smooth={true}
+              
               offset={-70}
               duration={1000}
               to="contact"

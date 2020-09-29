@@ -5,22 +5,24 @@ body {
   /* font-family: 'Josefin Sans', sans-serif; */
   font-family: 'Rubik', sans-serif;
 }
-/* .App {
-  height: 100vh;
-  width: 80vw;
-  display: flex;
-  flex-direction: column;
-} */
+.App {
+  /* height: 100vh; */
+  /* width: 80vw; */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
 
 /* NavBar */
 
 .navbar {
-  padding-bottom: 25px;
-  padding-top: 10px;
+  padding-bottom: 0px;
   font-family: 'Cantarell', sans-serif;
 }
 .nav {
   float: right;
+}
+a {
+  padding-left: 200px;
 }
 
 .navbar-brand {
@@ -28,6 +30,8 @@ body {
   font-size: 46px;
   padding-left: 30px;
 }
+
+
 
 a {
   text-decoration: none;
@@ -73,7 +77,29 @@ a {
   font-size: 1.2rem;
 }
 
+.btn-toolbar {
+  grid-gap: 3rem;
+  justify-content: center;
+}
+
+.btn-primary {
+  border-radius: 0 0 0 0 !important;
+  border-color: darkblue;
+  border-width: medium;
+  font-size: 14px;
+  color: blue;
+  background-color: white;
+  
+}
+
 /* Contact */
+
+.contact-container .contact-jumbotron{
+  background-color: lightblue;
+  text-align: center;
+  color: black;
+  width: auto;
+}
 
 .fa-google {
   color: #dd4b39;
@@ -109,15 +135,18 @@ a {
 
 /* Mobile Settings */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   body {
     font-size: 14px;
   }
 
   /* NavBar */
+  .top-navbar {
+    line-height: .5;
+  }
 
   .navbar-brand {
-    font-size: 15px;
+    font-size: 36px;
   }
   .nav-link {
     font-size: 12px;
@@ -176,6 +205,16 @@ a {
     content: '';
     display: table;
     clear: both;
+  }
+
+  /* Contact */
+  .fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
   }
 }
 
