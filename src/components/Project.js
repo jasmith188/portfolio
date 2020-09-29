@@ -36,8 +36,8 @@ const Project = ({ projects }) => {
                   <MDBBtn href={project.demo} color="primary" className="waves-effect">
                     Buy now <MDBIcon far icon="gem" />
                   </MDBBtn>
-                  <MDBBtn href={project.github} outline color="primary" className="waves-effect">
-                    Download <MDBIcon icon="download" />
+                  <MDBBtn href={project.demo} color="primary" className="waves-effect">
+                    Buy now <MDBIcon far icon="gem" />
                   </MDBBtn>
                   
                 </div>

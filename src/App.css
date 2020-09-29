@@ -23,6 +23,12 @@ body {
   float: right;
 }
 
+.navbar-brand {
+  font-family: 'Frijole', cursive;
+  font-size: 46px;
+  padding-left: 30px;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -67,27 +73,38 @@ a {
   font-size: 1.2rem;
 }
 
-/* Footer */
+/* Contact */
 
-.footer {
-  background-color: black;
+.fa-google {
+  color: #dd4b39;
+  align-items: center;
 }
-a.github {
+
+.fa-linkedin {
+  color: #4968ad;
+  text-align: center;
+}
+
+.fa-instagram {
+  color: rgb(160, 49, 64);
+  align-items: center;
+}
+.fa-github {
   color: white;
   align-items: center;
 }
 
-a.linkedin {
-  color: #4968ad;
+/* Style all font awesome icons */
+.fa {
+  padding: 40px;
+  font-size: 30px;
+  width: 30px;
   text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
-a.twitter {
-  color: 4968ad;
-  align-items: center;
-}
-a.instagram {
-  color: rgb(160, 49, 64);
-  align-items: center;
+.fa:hover {
+  color: white;
 }
 
 /* Mobile Settings */
@@ -144,7 +161,6 @@ a.instagram {
 
   .work_container .projects_container {
     grid-gap: 0.2rem;
-    
   }
 
   .work_container .projects_container img {
@@ -157,7 +173,7 @@ a.instagram {
     font-size: 0.8rem;
   }
   .clearfix:after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
   }

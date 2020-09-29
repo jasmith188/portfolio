@@ -1,6 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-scroll';
 import { Navbar, Nav } from 'react-bootstrap';
+import Image from '../images/initials.png';
 import '../App.css';
 
 const NavBar = () => {
@@ -14,8 +15,8 @@ const NavBar = () => {
         variant="dark"
         float-xs-right
       >
-        <Navbar.Brand to="home" href="#home">
-          James Smith
+        <Navbar.Brand src={Image}to="home" href="#home">
+          JS
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
