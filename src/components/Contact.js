@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBJumbotron, MDBIcon, MDBContainer, MDBRow, MDBCol } from 'mdbreact';
+import { MDBJumbotron,  MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faLinkedin, faGithub, faGmail, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
