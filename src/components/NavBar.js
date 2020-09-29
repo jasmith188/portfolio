@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-scroll';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import '../index.css';
+import '../App.css';
 
 const NavBar = () => {
   return (
@@ -104,47 +104,23 @@ const NavBar = () => {
               smooth={true}
               offset={-70}
               duration={1000}
+              to="project"
+              href="#project"
+            >
+              Projects
+            </Nav.Link>
+            <Nav.Link
+              className="ml-auto"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
               to="contact"
               href="#contact"
             >
               Contact
             </Nav.Link>
-            <NavDropdown  className='ml-auto' title="Projects" id="collasible-nav-dropdown">
-              <NavDropdown.Item
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-                to="project 1"
-                href="#project 1"
-              >
-                Project 1
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-                to="project 2"
-                href="#project 2"
-              >
-                Project 2
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-                to="project 3"
-                href="#project 3"
-              >
-                Project 3
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="https://github.com/jasmith188">
-                GitHub
-              </NavDropdown.Item>
-            </NavDropdown>
+            
           </Nav>
         </Navbar.Collapse>
       </Navbar>

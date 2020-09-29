@@ -8,7 +8,7 @@ import {
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
-import '../index.css';
+import '../App.css';
 
 function Footer() {
   return (

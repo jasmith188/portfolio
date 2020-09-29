@@ -1,17 +1,17 @@
 import React from 'react';
+import './App.css';
 import NavBar from './components/NavBar';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Project from './components/Project';
 // import Contact from './components/Contact';
 // import Skills from './components/Skills';
 import data from './components/Data';
 // import Resume from './components/Resume';
 // import Footer from './components/Footer';
-// import $ from 'jquery';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <NavBar name={data.name} contactEmail={data.contactEmail} />
       <About
         name={data.landingPageName}
@@ -21,7 +21,7 @@ function App() {
       />
       {/* <Skills /> */}
       {/* <Resume /> */}
-      <Portfolio projects={data.projects}/>
+      <Project projects={data.projects} />
       {/* <Contact /> */}
       {/* <Footer /> */}
     </div>

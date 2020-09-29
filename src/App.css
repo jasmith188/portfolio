@@ -1,0 +1,172 @@
+body {
+  /* display: flex;
+  align-content: center;
+  justify-content: center; */
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Rubik', sans-serif;
+}
+/* .App {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* NavBar */
+
+.navbar {
+  padding-bottom: 25px;
+  padding-top: 10px;
+  font-family: 'Cantarell', sans-serif;
+}
+.nav {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* About */
+.about-intro {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Projects */
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work_container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* top: 18rem; */
+  /* width: 100vw; */
+  /* padding-left: 10px; */
+}
+.work_container h1 {
+  font-size: 5rem;
+  font-family: 'Montserrat';
+}
+.work_container .projects_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+.work_container .projects_container img {
+  height: 20rem;
+  width: 20rem;
+}
+.work_container .projects_container .title {
+  font-size: 1.2rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: black;
+}
+a.github {
+  color: white;
+  align-items: center;
+}
+
+a.linkedin {
+  color: #4968ad;
+  text-align: center;
+}
+a.twitter {
+  color: 4968ad;
+  align-items: center;
+}
+a.instagram {
+  color: rgb(160, 49, 64);
+  align-items: center;
+}
+
+/* Mobile Settings */
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+
+  /* NavBar */
+
+  .navbar-brand {
+    font-size: 15px;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+  .dropdown-item {
+    font-size: 12px;
+  }
+  .navbar-toggler {
+    font-size: 10px;
+  }
+
+  /* About */
+
+  .about-intro {
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  .resume-button {
+    font-size: 12px;
+  }
+
+  .profile-img {
+    height: 250px;
+    width: auto;
+  }
+
+  /* Projects */
+  .work_container {
+    width: 100%;
+    /* top: 10rem; */
+    /* width: 80vw; */
+    /* display: block ; */
+  }
+
+  .work_container h1 {
+    font-size: 2rem;
+  }
+  .project_container {
+    width: 100%;
+  }
+
+  .work_container .projects_container {
+    grid-gap: 0.2rem;
+    
+  }
+
+  .work_container .projects_container img {
+    height: 12rem;
+    width: 12rem;
+    display: block;
+  }
+
+  .work_container .projects_container .title {
+    font-size: 0.8rem;
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* Tablet Settings  */
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+}

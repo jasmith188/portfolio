@@ -1,11 +1,6 @@
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
-
   //Change The Website Template
   name: 'James Smith',
-
-  //Contact Email
-  // contactEmail: "hello@chetanverma.com",
 
   // Landing Page Name
   landingPageName: 'James Smith',
@@ -24,78 +19,59 @@ export default {
   // Change Projects Here
   projects: [
     {
-      id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: 'WeatherToday', //Project Title - Add Your Project Title Here
-      // Image Size Should be (300X300 px)
-      imageSrc: 'assets/weathertoday.png',
-      //Project URL - Add Your Project Url Here
-      url: 'https://jasmith188.github.io/WeatherToday/',
-      // github: 'https://github.com/jasmith188/WeatherToday',
+      id: 1, 
+      title: 'infODose', 
+      info:
+        'This is a collaborative project which gives users information on overdoses by typing a location. Also the user can find a local police station nearby using geo-location. Our goal as a team was to source a very large database and extract information from that.',
+      tools:
+        'Utilized: HTML, CSS, JavaScript, MySQL, Passport, Bootstrap,large database',
+      imageSrc: '/assets/infodosemain.jpg',
+      
+      demo: 'https://lit-crag-01772.herokuapp.com',
+      github: 'https://github.com/jasmith188/infODose-1',
     },
     {
-      id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: 'Project Two',
-      imageSrc: 'https://via.placeholder.com/300',
-      url: 'http://chetanverma.com/',
+      id: 2, 
+      title: 'WeatherToday', 
+      info:
+        'In this application users want to know the current and 5-day weather for an exact location and retrieve it by typing in city and choosing a country',
+      tools: 'Utilized: HTML, CSS, JavaScript, React, Bootstrap, API data',
+      imageSrc: '/assets/weathertoday.png',
+      
+      demo: 'https://jasmith188.github.io/WeatherToday/',
+      github: 'https://github.com/jasmith188/WeatherToday',
     },
+
     {
-      id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: 'Project Three',
-      imageSrc: 'https://via.placeholder.com/300',
-      url: 'http://chetanverma.com/',
+      id: 3, 
+      title: 'Vacation Makers', 
+      info:
+        'This is an application that allows users to vacation to Florida with a budget. Choose your flight, hotel, restaurant or attraction and add it to your budget for your trip.',
+      tools:
+        'Utilized: HTML, CSS, Javascript, MongoDB, Express, React, Node.js, Bootstrap, Full MERN Application',
+      imageSrc: '/assets/vacationmakers.png',
+      
+      demo: 'https://the-vacation-makers.herokuapp.com/',
+      github: 'https://github.com/jasmith188/VacationMakers',
     },
-    {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: 'Project Four',
-      imageSrc: 'https://via.placeholder.com/300',
-      url: 'http://chetanverma.com/',
-    },
-    {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: 'Project Five',
-      imageSrc: 'https://via.placeholder.com/300',
-      url: 'http://chetanverma.com/',
-    },
-    {
-      id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: 'Project Six',
-      imageSrc: 'https://via.placeholder.com/300',
-      url: 'http://chetanverma.com/',
-    },
+    // {
+    //   id: 4, //DO NOT CHANGE THIS (Please)😅
+    //   title: 'Project Four',
+    //   imageSrc: 'https://via.placeholder.com/300',
+    //   url: 'http://chetanverma.com/',
+    // },
+    // {
+    //   id: 5, //DO NOT CHANGE THIS (Please)😅
+    //   title: 'Project Five',
+    //   imageSrc: 'https://via.placeholder.com/300',
+    //   url: 'http://chetanverma.com/',
+    // },
+    // {
+    //   id: 6, //DO NOT CHANGE THIS (Please)😅
+    //   title: 'Project Six',
+    //   imageSrc: 'https://via.placeholder.com/300',
+    //   url: 'http://chetanverma.com/',
+    // },
     // Paste more projects here from the template
-
-    /*
-                    If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
-                ,{
-                id: 7,
-                service: 'Something Amazing',
-                imageSrc: "",
-                url: ''
-            }
-                */
   ],
-
-  // Contact Section
-  contactPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  social: [
-    // Add Or Remove The Link Accordingly
-    {
-      name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/chetanverma7/',
-    },
-    {
-      name: 'Github',
-      url: 'https://www.behance.net/chetanverma',
-    },
-    {
-      name: 'Dribbble',
-      url: 'https://dribbble.com/chetanverma',
-    },
-  ],
-
-  // About Page
-  aboutTitle: 'I make remarkable digital products',
-  aboutPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text eversince the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
 };
