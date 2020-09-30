@@ -39,7 +39,7 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
                 <Card.Header>
                   <Accordion.Toggle
                     as={Button}
-                    variant="outline-success"
+                    variant="primary"
                     eventKey="0"
                   >
                     A Little more About Me

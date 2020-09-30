@@ -40,7 +40,7 @@ a {
 
 /* About */
 .jumbotron {
-  background-color: transparent;
+  background-color: transparent !important;
   border-width: thick;
   border-color: black;
   border-radius: 0 0 0 0;
@@ -52,14 +52,19 @@ a {
 
 .accordion {
   display: flex;
-  background-color: white;
+  background-color: transparent !important;
 }
 
 .about-accordion {
   justify-content: center;
+  background-color: transparent !important;
+  
   
 }
-
+.card {
+  background-color: transparent !important;
+  border-color: transparent;
+}
 /* Projects */
 
 .project-container {
