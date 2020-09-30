@@ -24,15 +24,17 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
                   900,
                   "'m a former chef  👨‍🍳",
                   900,
-                  "'m always trying to learn something new 🤓",
+                  ' live in Florida 🍊 😎 🌴',
                   900,
-                  ' love the outdoors 🤿  🚴🏻‍♂️  🏄‍♂️  🏀  🏈',
+                  "'m always learning something new 🤓",
+                  900,
+                  ' love the outdoors 🤿  🚴🏻‍♂️  🎣  🏊‍♂️  🏀  🏈',
                   900,
                 ]}
               />
             </p>
             <p>{paragraph}</p>
-            <Accordion className='about-accordion' defaultActiveKey="1">
+            <Accordion className="about-accordion" defaultActiveKey="1">
               <Card>
                 <Card.Header>
                   <Accordion.Toggle
@@ -45,12 +47,14 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
                   <Card.Body className="row">
-                    <div className="col-6">{paragraph2}</div>
-                    
+                    <div className="col-6" align="wrap">
+                      {paragraph2}
+                    </div>
+
                     <div className="col-6">
                       <img
                         className="cooking-img"
-                        // align="right"
+                        align="right"
                         src={Image2}
                         height="480px"
                         width="auto"
@@ -63,6 +67,7 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
             </Accordion>
             {''}
           </div>
+
           <div className="col-md-4 offset-md-1 mx-3 my-3">
             <div className="view overlay">
               <img

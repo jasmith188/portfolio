@@ -39,6 +39,12 @@ a {
 }
 
 /* About */
+.jumbotron {
+  background-color: transparent;
+  border-width: thick;
+  border-color: black;
+  border-radius: 0 0 0 0;
+}
 .about-intro {
   font-size: 30px;
   font-weight: bold;
@@ -46,10 +52,12 @@ a {
 
 .accordion {
   display: flex;
+  background-color: white;
 }
 
 .about-accordion {
   justify-content: center;
+  
 }
 
 /* Projects */
@@ -155,11 +163,12 @@ a {
 
   /* NavBar */
   .top-navbar {
-    line-height: 0.5;
+    line-height: 1;
   }
 
   .navbar-brand {
     font-size: 36px;
+    padding-top: 5px;
   }
   .nav-link {
     font-size: 12px;
@@ -189,6 +198,11 @@ a {
   .cooking-img {
     height: 150px;
     width: auto;
+    /* float: right; */
+  }
+
+  .about-paragraph {
+    text-align: justify;
   }
 
   /* Projects */
