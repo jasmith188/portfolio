@@ -15,11 +15,15 @@ body {
 /* NavBar */
 
 .navbar {
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   font-family: 'Cantarell', sans-serif;
 }
 .nav {
   float: right;
+}
+.ml-auto {
+  padding-left: 60px;
+  padding-right: 30px;
 }
 
 .navbar-brand {
@@ -38,6 +42,14 @@ a {
 .about-intro {
   font-size: 30px;
   font-weight: bold;
+}
+
+.accordion {
+  display: flex;
+}
+
+.about-accordion {
+  justify-content: center;
 }
 
 /* Projects */
@@ -174,6 +186,11 @@ a {
     width: auto;
   }
 
+  .cooking-img {
+    height: 150px;
+    width: auto;
+  }
+
   /* Projects */
   .work_container {
     width: 100%;
@@ -244,7 +261,6 @@ a {
     width: auto;
   }
 
-
   /* Contact */
 
   .contact-container .contact-jumbotron {
@@ -256,10 +272,10 @@ a {
     padding-bottom: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
-}
+  }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1200px) {
+@media only screen and (min-width: 800px) and (max-width: 1900px) {
   body {
     font-size: 14px;
   }
@@ -271,7 +287,6 @@ a {
     width: auto;
   }
 
-
   /* Contact */
 
   .contact-container .contact-jumbotron {
@@ -283,5 +298,18 @@ a {
     padding-bottom: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
+  }
 }
-}
+
+/* For setting up accordion button in </About > */
+
+/* @media only screen and (max-width: 778px) {
+  body {
+    font-size: 14px;
+  }
+
+  .about-accordion {
+    text-align: center;
+    justify-content: center;
+  }
+} */

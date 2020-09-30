@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-scroll';
+import { Link } from 'react-scroll';
 import { Navbar, Nav } from 'react-bootstrap';
 // import Image from '../images/initials.png';
 import '../App.css';
@@ -20,36 +20,51 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="navbar-collapse" id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link
+            <Link
               className="ml-auto"
-              
+              spy={true}
+              smooth={true}
               offset={-70}
               duration={1000}
               to="about"
               href="#about"
             >
               About
-            </Nav.Link>
-            <Nav.Link
+            </Link>
+            <Link
               className="ml-auto"
-             
+              spy={true}
+              smooth={true}
               offset={-70}
               duration={1000}
               to="project"
               href="#project"
             >
               Projects
-            </Nav.Link>
-            <Nav.Link
+            </Link>
+            
+            <Link
               className="ml-auto"
-              
+              spy={true}
+              smooth={true}
               offset={-70}
               duration={1000}
               to="contact"
               href="#contact"
             >
               Contact
-            </Nav.Link>
+            </Link>
+            <Link
+              className="ml-auto"
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={1000}
+              to="project"
+              href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:5751e841-0449-4830-aeb5-62ab60f282fc"
+            >
+              Resume
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

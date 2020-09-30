@@ -8,10 +8,10 @@ const Contact = () => {
         <div className="contact-row row">
           <div className="col-md-7 text-md-left ml-3 mt-3">
             <h2>Connect with me</h2>
+            <br />
             <p>Want to get in touch?</p>
             
-            <p>Let's collaborate or just have a zoom coffee in the morning</p>
-            <p>Push one of these buttons </p>
+            <p>Let's collaborate</p>
             <p><a href='tel:704-909-8461'>Cell Phone: (704)-909-8461</a></p>
           </div>
           <div className='col-md-4 offset-md-1 mx-3 my-3'>
