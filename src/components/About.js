@@ -12,18 +12,18 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
           <div className="col-md-7 text-md-left ml-3 mt-3">
             <h1 className="about-intro">Hi, I'm {name}.</h1>
             <p>
-              I'm
+              I
               <Typical
                 loop={Infinity}
                 wrapper="b"
                 steps={[
-                  ' a developer 💻.',
+                  ' am a developer 💻.',
                   900,
-                  ' a former fine-dining chef 👨‍🍳.',
+                  ' use to be a chef 👨‍🍳.',
                   900,
                   ' always trying to learn something new 🤓.',
                   900,
-                  ' an outdoor enthusiast 🤿 🚴🏻‍♂️ 🏄‍♂️ 🏀 🏈',
+                  ' love the outdoors 🤿  🚴🏻‍♂️  🏄‍♂️  🏀  🏈',
                   900,
                 ]}
               />
