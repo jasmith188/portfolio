@@ -61,7 +61,7 @@ const NavBar = () => {
               // offset={-70}
               // duration={1000}
               to="project"
-              href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:5751e841-0449-4830-aeb5-62ab60f282fc"
+              href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d"
             >
               Resume
             </Link>
