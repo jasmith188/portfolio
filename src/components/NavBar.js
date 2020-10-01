@@ -54,7 +54,7 @@ const NavBar = () => {
             >
               Contact
             </Link>
-            <Link
+            {/* <Link
               className="ml-auto"
               // spy={true}
               // smooth={true}
@@ -64,7 +64,7 @@ const NavBar = () => {
               href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d"
             >
               Resume
-            </Link>
+            </Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

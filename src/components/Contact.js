@@ -13,6 +13,7 @@ const Contact = () => {
             
             <p>Let's collaborate</p>
             <p><a href='tel:704-909-8461'>Cell Phone: (704)-909-8461</a></p>
+            <p><a href='https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d'>Resume</a></p>
           </div>
           <div className='col-md-4 offset-md-1 mx-3 my-3'>
             <hr className="my-2" />
