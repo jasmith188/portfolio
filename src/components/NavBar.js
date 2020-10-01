@@ -60,7 +60,7 @@ const NavBar = () => {
               // smooth={true}
               // offset={-70}
               // duration={1000}
-              to="project"
+              to="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d"
               href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d"
             >
               Resume
