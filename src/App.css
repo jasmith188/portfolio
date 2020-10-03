@@ -184,6 +184,11 @@ a {
   .navbar-toggler {
     font-size: 10px;
   }
+  .ml-auto {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+  }
 
   /* About */
 
