@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 // import Skills from './components/Skills';
 import data from './components/Data';
 // import Resume from './components/Resume';
+// import ContactPage from './components/ContactPage'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       {/* <Resume /> */}
       <Project projects={data.projects} />
       <Contact />
+    {/* <ContactPage /> */}
     
     </div>
   );

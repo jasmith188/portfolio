@@ -33,10 +33,14 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
                 ]}
               />
             </p>
+            <Button href='https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d'>Resume</Button>
+            
+            <hr />
             <p>{paragraph}</p>
             <Accordion className="about-accordion" defaultActiveKey="1">
               <Card>
                 <Card.Header>
+                
                   <Accordion.Toggle
                     as={Button}
                     variant="primary"
@@ -44,6 +48,7 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
                   >
                     A Little more About Me
                   </Accordion.Toggle>
+                 
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
                   <Card.Body className="row">
