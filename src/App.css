@@ -121,8 +121,8 @@ a {
   width: auto;
   padding-top: 6rem;
   padding-bottom: 2rem;
-  padding-left: 19rem;
-  padding-right: 9rem;
+  padding-left: 12rem !important;
+  padding-right: 14rem !important;
 }
 
 .fa-google {
@@ -288,7 +288,7 @@ a {
   /* Contact */
 
   .contact-container .contact-jumbotron {
-    background-color: black;
+    background-color: gray;
     text-align: center;
     color: white;
     width: auto;
@@ -327,13 +327,19 @@ a {
 
 /* For setting up accordion button in </About > */
 
-/* @media only screen and (max-width: 778px) {
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
   body {
     font-size: 14px;
   }
 
-  .about-accordion {
+  .contact-container .contact-jumbotron {
+    background-color: black;
     text-align: center;
-    justify-content: center;
+    color: white;
+    width: auto;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    padding-left: 8rem !important;
+    padding-right: 10rem !important;
   }
-} */
+}
