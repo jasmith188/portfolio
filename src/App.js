@@ -3,11 +3,11 @@ import './App.css';
 import NavBar from './components/NavBar';
 import About from './components/About';
 import Project from './components/Project';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 // import Skills from './components/Skills';
 import data from './components/Data';
 // import Resume from './components/Resume';
-// import ContactPage from './components/ContactPage'
+import Contact from './components/ContactPage'
 
 function App() {
   return (
@@ -22,8 +22,8 @@ function App() {
       {/* <Skills /> */}
       {/* <Resume /> */}
       <Project projects={data.projects} />
-      <Contact />
-    {/* <ContactPage /> */}
+      {/* <Contact /> */}
+    <Contact />
     
     </div>
   );
