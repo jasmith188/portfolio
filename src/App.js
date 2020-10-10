@@ -7,7 +7,7 @@ import Project from './components/Project';
 // import Skills from './components/Skills';
 import data from './components/Data';
 // import Resume from './components/Resume';
-import Contact from './components/ContactPage'
+import Contact from './components/Contact'
 
 function App() {
   return (
