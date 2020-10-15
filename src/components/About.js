@@ -26,14 +26,14 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
                   900,
                   ' live in Florida 🍊 😎 🌴',
                   900,
-                  "'m always learning something new 🤓",
+                  "'m a problem solver 🤓",
                   900,
                   ' love the outdoors 🤿  🚴🏻‍♂️  🎣  🏊‍♂️  🏀  🏈',
                   900,
                 ]}
               />
             </p>
-            <Button href='https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d'>Resume</Button>
+            {/* <Button href='https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d'>Resume</Button> */}
             
             <hr />
             <p>{paragraph}</p>
@@ -46,7 +46,7 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
                     variant="primary"
                     eventKey="0"
                   >
-                    A Little more About Me
+                    A Little More About Me
                   </Accordion.Toggle>
                  
                 </Card.Header>

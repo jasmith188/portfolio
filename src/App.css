@@ -168,16 +168,14 @@ a {
 
   /* NavBar */
   .top-navbar {
-    /* line-height: 1; */
+    line-height: 1;
   }
 
   .navbar-brand {
     font-size: 36px;
     padding-top: 5px;
   }
-  /* .nav-link {
-    font-size: 12px;
-  } */
+  
   .dropdown-item {
     font-size: 12px;
   }
@@ -187,6 +185,8 @@ a {
   .ml-auto {
     padding-left: 0px;
     padding-right: 0px;
+    font-size: 18px;
+    line-height: 1.5;
     /* padding-bottom: 5px; */
   }
 
