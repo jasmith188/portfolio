@@ -33,7 +33,7 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
                 ]}
               />
             </p>
-            <Button href='https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d'>Resume</Button>
+            {/* <Button href='https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d'>Resume</Button> */}
             
             <hr />
             <p>{paragraph}</p>
