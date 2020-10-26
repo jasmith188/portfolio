@@ -5,6 +5,7 @@ import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import data from './components/Data';
+import CardPage from './components/CardPage'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         paragraph2={data.landingPagePara2}
         authorImage={data.landingPageImage}
       />
+      <CardPage />
       <Project projects={data.projects} />
       <Contact />
     </div>
