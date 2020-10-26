@@ -43,12 +43,17 @@ export default class Contact extends React.Component {
                   <label>Name: </label>
                   <input type="text" name="name" required />
                 </div>
+                <br />
                 <div className="label-email">
                   <label>Email: </label>
                   <input type="email" name="email" required />
                 </div>
+                <br />
+<div className='label-subject'>
                 <label>Subject: </label>
                 <input type="text" name="subject" />
+                </div>
+                <br />
                 <div className="label-message">
                   <label>
                     Message: <span className="required"></span>{' '}
@@ -56,7 +61,7 @@ export default class Contact extends React.Component {
                   <textarea type="text" name="message" required />
                 </div>
                 {status === 'SUCCESS' ? (
-                  <p>Thanks!</p>
+                  <p>Thanks for messaging me. I'll get back to you as soon as possible!</p>
                 ) : (
                   <button className='btn-primary'>Submit</button>
                 )}
