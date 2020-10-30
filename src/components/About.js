@@ -34,39 +34,45 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
               />
             </p>
             {/* <Button href='https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d'>Resume</Button> */}
-            
+
             <hr />
-            <p className='about-paragraph'>{paragraph}</p>
+            <p className="about-paragraph">{paragraph}</p>
             <Accordion className="about-accordion" defaultActiveKey="1">
               <Card>
                 <Card.Header>
-                
-                  <Accordion.Toggle
-                    as={Button}
-                    variant="primary"
-                    eventKey="0"
-                  >
+                  <Accordion.Toggle as={Button} variant="primary" eventKey="0">
                     A Little More About Me
                   </Accordion.Toggle>
-                 
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
                   <Card.Body className="row">
-                    <div className="col-6" align="wrap">
-                     <p className='about-paragraph-accordion'>{paragraph2} </p>
-                    </div>
-
-                    <div className="col-6">
+                    <div className="col-12 col-sm-2 pull-left">
                       <img
-                        className="cooking-img"
-                        align="center"
+                        className="cooking-img img-responsive"
                         src={Image2}
                         height="480px"
-                        width="auto"
+                        width="right"
                         alt={'error'}
                       />
                     </div>
+                    {paragraph2}
+                    <div className="col-xs-10">
+                      <hr />
+                    </div>
                   </Card.Body>
+{/* 
+                  <div class="row">
+                    <div class="col-12 col-lg-2">
+                      <img
+                        className="img-responsive"
+                        src={Image2}
+                        width="60%"
+                        alt={'error'}
+                      />
+                    </div>
+
+                    <div class="col-lg-10">{paragraph2}</div>
+                  </div> */}
                 </Accordion.Collapse>
               </Card>
             </Accordion>
