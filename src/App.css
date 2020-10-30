@@ -4,7 +4,6 @@ body {
   justify-content: center; */
   /* font-family: 'Josefin Sans', sans-serif; */
   font-family: 'Rubik', sans-serif;
-  background-color: whitesmoke;
 }
 /* .App {
   height: 100vh;
@@ -51,20 +50,13 @@ a {
   font-weight: bold;
 }
 
-.about-paragraph {
-  font-size: 18px;
-}
-/* .about-paragraph-accordion {
-  font-size: 18px;
-} */
-
 .accordion {
   display: flex;
   background-color: transparent !important;
 }
 
 .about-accordion {
-  /* justify-content: center; */
+  justify-content: center;
   background-color: transparent !important;
   
   
