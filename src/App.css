@@ -50,6 +50,13 @@ a {
   font-weight: bold;
 }
 
+.about-paragraph {
+  font-size: 18px;
+}
+.about-paragraph-accordion {
+  font-size: 18px;
+}
+
 .accordion {
   display: flex;
   background-color: transparent !important;

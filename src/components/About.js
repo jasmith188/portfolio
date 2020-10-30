@@ -36,7 +36,7 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
             {/* <Button href='https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d'>Resume</Button> */}
             
             <hr />
-            <p>{paragraph}</p>
+            <p className='about-paragraph'>{paragraph}</p>
             <Accordion className="about-accordion" defaultActiveKey="1">
               <Card>
                 <Card.Header>
@@ -53,13 +53,13 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
                 <Accordion.Collapse eventKey="0">
                   <Card.Body className="row">
                     <div className="col-6" align="wrap">
-                      {paragraph2}
+                     <p className='about-paragraph-accordion'>{paragraph2} </p>
                     </div>
 
                     <div className="col-6">
                       <img
                         className="cooking-img"
-                        align="right"
+                        align="center"
                         src={Image2}
                         height="480px"
                         width="auto"
