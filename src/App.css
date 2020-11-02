@@ -49,18 +49,19 @@ a {
   font-size: 30px;
   font-weight: bold;
 }
-
-.accordion {
-  display: flex;
-  background-color: transparent !important;
+.second-container {
+  width: 400px;
+  background-color: #eee;
+  font-family: arial;
+  padding: 5px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.second-container img {
+  margin-left: 5px;
+  float: right;
 }
 
-.about-accordion {
-  justify-content: center;
-  background-color: transparent !important;
-  
-  
-}
 .card {
   background-color: transparent !important;
   border-color: transparent;
@@ -175,7 +176,7 @@ a {
     font-size: 36px;
     padding-top: 5px;
   }
-  
+
   .dropdown-item {
     font-size: 12px;
   }
@@ -206,9 +207,9 @@ a {
   }
 
   .cooking-img {
-    height: 190px;
+    height: 290px !important; 
     width: auto;
-    /* float: right; */
+    float: right !important;
   }
 
   .about-paragraph {

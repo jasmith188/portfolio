@@ -14,22 +14,22 @@ export default {
   projects: [
     {
       id: 1,
-      title: 'infODose',
+      title: 'Amazon Clone',
       info:
-        'This is a collaborative project which gives users information on overdoses by typing a location. Also the user can find a local police station nearby using geo-location. Our goal as a team was to source a very large database and extract information from that.',
+        'This amazon clone uses React and captures a very realistic design and fluidness similar to its real website .',
       tools:
-        'Utilized: HTML, CSS, JavaScript, MySQL, Passport, Bootstrap,large database',
-      imageSrc: '/assets/infodosemain.jpg',
+        'HTML, CSS, Javascript, Firebase, Node.js, React Context API',
+      imageSrc: '/assets/amazon-clone.png',
 
-      demo: 'https://lit-crag-01772.herokuapp.com',
-      github: 'https://github.com/jasmith188/infODose-1',
+      demo: 'https://fir-d4124.web.app/',
+      github: 'https://github.com/jasmith188/amazon-clone',
     },
     {
       id: 2,
       title: 'WeatherToday',
       info:
         'In this application users want to know the current and 5-day weather for an exact location and retrieve it by typing in city and choosing a country',
-      tools: 'Utilized: HTML, CSS, JavaScript, React, Bootstrap, API data',
+      tools: 'Utilized: HTML, CSS, JavaScript, React, Bootstrap, API data (MOBILE - FRIENDLY)',
       imageSrc: '/assets/weathertoday.png',
 
       demo: 'https://jasmith188.github.io/WeatherToday/',
