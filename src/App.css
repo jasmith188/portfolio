@@ -49,14 +49,14 @@ a {
   font-size: 30px;
   font-weight: bold;
 }
-.second-container {
+/* .second-container {
   width: 400px;
   background-color: #eee;
   font-family: arial;
   padding: 5px;
   border: 1px solid #ccc;
   overflow: hidden;
-}
+} */
 .second-container img {
   margin-left: 5px;
   float: right;
