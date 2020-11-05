@@ -39,6 +39,12 @@ a {
 }
 
 /* About */
+.about-paragraph {
+  font-size: 17px;
+}
+.cooking-paragraph {
+  font-size: 17px;
+}
 .jumbotron {
   background-color: transparent !important;
   border-width: thick;
@@ -48,6 +54,12 @@ a {
 .about-intro {
   font-size: 30px;
   font-weight: bold;
+}
+
+.cooking-img {
+  height: 390px !important; 
+  width: auto;
+  /* float: right !important; */
 }
 /* .second-container {
   width: 400px;
