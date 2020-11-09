@@ -26,7 +26,7 @@ export default {
     },
     {
       id: 2,
-      title: 'WeatherToday',
+      title: 'Weather Today',
       info:
         'In this application users want to know the current and 5-day weather for an exact location and retrieve it by typing in city and choosing a country',
       tools: 'Utilized: HTML, CSS, JavaScript, React, Bootstrap, API data (MOBILE - FRIENDLY)',

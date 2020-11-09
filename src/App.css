@@ -40,10 +40,10 @@ a {
 
 /* About */
 .about-paragraph {
-  font-size: 17px;
+  font-size: 24px;
 }
 .cooking-paragraph {
-  font-size: 17px;
+  font-size: 24px;
 }
 .jumbotron {
   background-color: transparent !important;
@@ -205,6 +205,13 @@ a {
 
   /* About */
 
+  .about-paragraph {
+    font-size: 15px;
+  }
+  .cooking-paragraph {
+    font-size: 15px;
+  }
+
   .about-intro {
     font-size: 28px;
     font-weight: bolder;
@@ -221,7 +228,7 @@ a {
   .cooking-img {
     height: 290px !important; 
     width: auto;
-    float: right !important;
+    /* float: right !important; */
   }
 
   .about-paragraph {
