@@ -62,7 +62,7 @@ a {
 }
 
 .cooking-img {
-  height: 390px !important; 
+  height: 390px !important;
   width: auto;
   /* float: right !important; */
 }
@@ -231,13 +231,9 @@ a {
   }
 
   .cooking-img {
-    height: 290px !important; 
+    height: 290px !important;
     width: auto;
     /* float: right !important; */
-  }
-
-  .about-paragraph {
-    text-align: justify;
   }
 
   /* Projects */

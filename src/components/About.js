@@ -4,7 +4,6 @@ import Image1 from '../images/profile.jpeg';
 import Image2 from '../images/cooking2.jpg';
 import Image3 from '../images/cooking.jpeg';
 
-
 import '../App.css';
 
 const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
@@ -43,22 +42,34 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
         </div>
 
         <div className="col-md-6  ">
-          
-            <img
-              className="profile-img"
-              src={Image1}
-              height="380px"
-              width="auto"
-              alt={'error'}
-            />
-            <div className="mask rgba-white-slight"></div>
-         
+          <img
+            className="profile-img"
+            src={Image1}
+            height="380px"
+            width="auto"
+            alt={'error'}
+          />
+          <div className="mask rgba-white-slight"></div>
         </div>
       </div>
-
+      <br />
       <div className="row">
         <div className="col-sm-4  ml-1 mt-2">
-          <div className="view overlay">
+        <p className="cooking-paragraph">{paragraph2}</p>
+         
+        </div>
+        <div className="col-md-3 offset-md-1 mx-3 my-3">
+          <img
+            className="cooking-img"
+            align="center"
+            src={Image3}
+            height="480px"
+            width="auto"
+            alt={'error'}
+          />
+        </div>
+        <div className="col-sm-4  ml-1 mt-2">
+        <div className="view overlay">
             <img
               className="cooking-img"
               // align="flex"
@@ -68,19 +79,6 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
               alt={'error'}
             />
           </div>
-        </div>
-        <div className="col-md-3 offset-md-1 mx-3 my-3">
-          <p className="cooking-paragraph">{paragraph2}</p>
-        </div>
-        <div className="col-sm-4  ml-1 mt-2">
-        <img
-              className="cooking-img"
-              align="center"
-              src={Image3}
-              height="480px"
-              width="auto"
-              alt={'error'}
-            />
         </div>
       </div>
     </div>
