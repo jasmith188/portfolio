@@ -13,7 +13,7 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
       <div className="row">
         {/* <div className="jumbotron text-center hoverable p-4"> */}
 
-        <div className="col-sm-4  ml-1 mt-2">
+        <div className="col-md-4 ">
           <h1 className="about-intro">Hi, I'm {name}.</h1>
           <p>
             I
@@ -42,7 +42,7 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
           {''}
         </div>
 
-        <div className="col-md-7 offset-md-1 mx-3 my-3">
+        <div className="col-md-6  ">
           
             <img
               className="profile-img"
