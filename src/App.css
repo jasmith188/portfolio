@@ -185,6 +185,8 @@ a {
   }
 
   /* NavBar */
+  
+
   .top-navbar {
     line-height: 1;
   }
@@ -203,8 +205,8 @@ a {
   .ml-auto {
     padding-left: 0px;
     padding-right: 0px;
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 25px;
+    line-height: 3.0;
     /* padding-bottom: 5px; */
   }
 
