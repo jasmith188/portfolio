@@ -3,9 +3,10 @@ import './App.css';
 import NavBar from './components/NavBar';
 import About from './components/About';
 import Project from './components/Project';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import data from './components/Data';
 // import CardPage from './components/CardPage'
+import ContactForm from './components/ContactForm'
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       />
       {/* <CardPage /> */}
       <Project projects={data.projects} />
-      <Contact />
+      {/* <Contact /> */}
+      <ContactForm />
     </div>
   );
 }
