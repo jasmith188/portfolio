@@ -58,7 +58,7 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
         <p className="cooking-paragraph">{paragraph2}</p>
          
         </div>
-        <div className="col-md-3 offset-md-1 mx-3 my-3">
+        <div className="col-md-2 offset-md-1 mx-3 my-3">
           <img
             className="cooking-img"
             align="center"
