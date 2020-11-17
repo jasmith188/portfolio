@@ -36,7 +36,7 @@ const Project = ({ projects }) => {
                     App <MDBIcon far icon="gem" />
                   </MDBBtn>
                   <MDBBtn
-                    href={project.demo}
+                    href={project.github}
                     color="primary"
                     className="waves-effect"
                   >

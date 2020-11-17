@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Card, Button } from 'react-bootstrap';
 export default class CardPage extends Component {
   render() {
+
+
+
     return (
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />

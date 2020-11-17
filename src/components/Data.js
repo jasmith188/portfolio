@@ -18,7 +18,7 @@ export default {
       info:
         'This amazon clone uses React and captures a very realistic design and fluidness similar to its real website .',
       tools:
-        'HTML, CSS, Javascript, Firebase, Node.js, React Context API',
+        'Utilized: HTML, CSS, Javascript, Firebase, Node.js, React Context API',
       imageSrc: '/assets/amazon-clone.png',
 
       demo: 'https://fir-d4124.web.app/',
