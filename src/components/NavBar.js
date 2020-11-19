@@ -11,11 +11,11 @@ const NavBar = () => {
         sticky="top"
         collapseOnSelect
         expand="sm"
-        bg="dark"
         variant="dark"
+        color='white'
       >
         <Navbar.Brand to="home" href="#home">
-          JS
+          
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="navbar-collapse" id="responsive-navbar-nav">

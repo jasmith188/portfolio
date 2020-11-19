@@ -17,9 +17,14 @@ body {
 .navbar {
   /* padding-bottom: 20px; */
   font-family: 'Cantarell', sans-serif;
+  background-color: black;
 }
 .nav {
   float: right;
+}
+.navbar-toggler-icon {
+outline: none;
+box-shadow: none;
 }
 .ml-auto {
   padding-left: 60px;
@@ -198,8 +203,14 @@ a {
     font-size: 12px;
   }
   .navbar-toggler {
-    font-size: 10px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-color: transparent !important;
   }
+  .navbar-collapse {
+    border-color: transparent;
+  }
+  
   .ml-auto {
     padding-left: 0px;
     padding-right: 0px;

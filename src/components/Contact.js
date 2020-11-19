@@ -26,7 +26,7 @@ export default class Contact extends React.Component {
                 <a href="tel:704-909-8461">Cell Phone: (704)-909-8461</a>
               </p>
               <p>
-                <a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d">
+                <a href="https://docs.google.com/document/d/1jQ01tXNrs9hSdPc4pE2GaUnmryYHTU4RS6BHQNDX5v0/edit?usp=sharing">
                   Resume
                 </a>
               </p>
