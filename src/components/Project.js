@@ -15,12 +15,13 @@ import {
 const Project = ({ projects }) => {
   return (
     <MDBContainer id="project" className="mt-5 text-center">
+      <h1>Projects</h1>
       <MDBRow>
         <MDBCol>
           {projects.map((project) => (
             <MDBJumbotron>
               <MDBCardBody>
-                <MDBCardTitle className="h2">{project.title}</MDBCardTitle>
+                <MDBCardTitle className="h5">{project.title}</MDBCardTitle>
                 <MDBCardImage src={project.imageSrc} className="img-fluid" />
                 <p className="blue-text my-4 font-weight-bold">
                   {project.tools}
