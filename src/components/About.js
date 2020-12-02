@@ -14,7 +14,7 @@ const About = ({ name, paragraph, paragraph2, landingPageImage }) => {
 
         <div className="col-md-4 ">
           <h1 className="about-intro">Hi, I'm {name}.</h1>
-          <p>
+          <p className='typical-font'>
             I
             <Typical
               loop={Infinity}
