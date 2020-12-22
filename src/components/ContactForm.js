@@ -26,39 +26,7 @@ export default class ContactForm extends React.Component {
               <p>
                 <a href="tel:704-909-8461">Cell Phone: (704)-909-8461</a>
               </p>
-              <p>
-                <a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d587a8fe-9f08-489c-be03-fcaf8579377d">
-                  Resume
-                </a>
-              </p>
-              {/* <form
-          onSubmit={this.submitForm}
-          action="https://formspree.io/f/mvovzakj"
-          method="POST"
-        >
-          <div className="label-name">
-            <label>Name: </label>
-            <input type="text" name="name" required />
-          </div>
-          <div className="label-email">
-            <label>Email: </label>
-            <input type="email" name="email" required />
-          </div>
-          <label>Subject: </label>
-          <input type="text" name="subject" />
-          <div className="label-message">
-            <label>
-              Message: <span className="required"></span>{' '}
-            </label>
-            <textarea type="text" name="message" required />
-          </div>
-          {status === 'SUCCESS' ? (
-            <p>Thanks!</p>
-          ) : (
-            <button className="btn-primary">Submit</button>
-          )}
-          {status === 'ERROR' && <p>Ooops! There was an error.</p>}
-        </form> */}
+
               <Form
                 onSubmit={this.submitForm}
                 action="https://formspree.io/f/mvovzakj"
@@ -67,8 +35,8 @@ export default class ContactForm extends React.Component {
                 <Form.Group controlId="exampleForm.ControlInput1">
                   <Form.Label>Name: </Form.Label>
                   <Form.Control type="text" name="name" required />
-                </Form.Group>
-                <Form.Group controlId="exampleForm.ControlSelect1">
+                  {/* </Form.Group> */}
+                  {/* <Form.Group controlId="exampleForm.ControlSelect1"> */}
                   <Form.Label>Email: </Form.Label>
                   <Form.Control type="email" name="email" required />
                 </Form.Group>

@@ -26,9 +26,9 @@ export default class Contact extends React.Component {
                 <a href="tel:704-909-8461">Cell Phone: (704)-909-8461</a>
               </p>
               <p>
-                <a href="https://docs.google.com/document/d/1jQ01tXNrs9hSdPc4pE2GaUnmryYHTU4RS6BHQNDX5v0/edit?usp=sharing">
+                {/* <a href="https://docs.google.com/document/d/1jQ01tXNrs9hSdPc4pE2GaUnmryYHTU4RS6BHQNDX5v0/edit?usp=sharing">
                   Resume
-                </a>
+                </a> */}
               </p>
               <form
                 onSubmit={this.submitForm}

@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
+.main {
+  height: 100vh;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url('../images/profile.jpeg');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+
+  .navbar {
+    display: flex;
+    max-width: 600px;
+    margin: 0 10% 0 auto;
+    justify-content: space-between;
+    padding: 40px 20px 20px 20px;
+    &__link {
+      color: white;
+      font-weight: 700;
+      transition: 0.3s color;
+      &:hover {
+        color: rgb(170, 21, 21);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50px;
+    top: 30%;
+    bottom: auto;
+    height: 200px;
+    &__link {
+      color: white;
+      margin-bottom: 70px;
+      transition: 0.3s;
+      &:hover {
+        color: rgb(146, 29, 29);
+      }
+      .MuiSvgIcon-root {
+        width: 42px;
+        height: 42px;
+      }
+    }
+  }
+
+  &__center {
+    display: flex;
+    flex-direction: column;
+    max-width: 1226px;
+    margin: 0 0 0 20%;
+    justify-content: flex-end;
+    height: 70vh;
+    .banner {
+      margin-bottom: 65px;
+      &__title {
+        font-family: "Krona One", sans-serif;
+        font-size: 57px;
+        opacity: 0;
+        margin-bottom: 10px;
+        letter-spacing: 3px;
+      }
+      &__description {
+        font-size: 22px;
+        opacity: 0;
+        font-weight: 300;
+        letter-spacing: 3px;
+      }
+    }
+
+    .portofolio {
+      &__link-wrapper {
+        opacity: 0;
+      }
+      &__link {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        color: rgb(65, 216, 19);
+        transition: 0.3s color;
+        &:hover {
+          color: rgb(65, 216, 19);
+          cursor: pointer;
+        }
+        span {
+          margin-right: 5px;
+        }
+      }
+      &__images {
+        margin-top: 25px;
+
+        img {
+          opacity: 0;
+          width: 242px;
+          object-fit: cover;
+          height: 166px;
+          margin-right: 25px;
+          transition: 0.3s opacity;
+          &:hover {
+            opacity: 1 !important;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .main {
+    background-size: 70%;
+    .navbar {
+      margin-right: 5%;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .main {
+    background-size: 80%;
+    &__center {
+      height: 60vh;
+      .banner {
+        &__title {
+          font-size: 47px;
+        }
+        &__description {
+          font-size: 20px;
+        }
+      }
+      .portofolio {
+        &__link {
+          font-size: 17px;
+        }
+        &__images {
+          img {
+            height: 156px;
+            width: 222px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .main {
+    background-size: 75%;
+    .navbar {
+      max-width: 500px;
+      &__link {
+        font-size: 13px;
+      }
+    }
+    &__center {
+      height: 65vh;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main {
+    background-size: 90%;
+    &__center {
+      height: 65vh;
+      .banner {
+        &__title {
+          font-size: 44px;
+        }
+        &__description {
+          font-size: 19px;
+        }
+      }
+      .portofolio {
+        &__link {
+          font-size: 16px;
+        }
+      }
+    }
+    .sidebar {
+      top: 35%;
+      &__link {
+        .MuiSvgIcon-root {
+          width: 39px;
+          height: 39px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    background-size: 95%;
+    .sidebar {
+      &__link {
+        .MuiSvgIcon-root {
+          width: 35px;
+          height: 35px;
+        }
+      }
+    }
+    .banner {
+      &__title {
+        font-size: 38px;
+      }
+      &__description {
+        font-size: 15px;
+      }
+    }
+    .portofolio {
+      &__link {
+        font-size: 13px;
+      }
+      &__images {
+        img {
+          height: 136px;
+          width: 182px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+      url('../images/profile.jpeg');
+    background-size: auto;
+    background-position: 92.5% 100%;
+    background-repeat: no-repeat;
+
+    .navbar,
+    .sidebar {
+      display: none;
+    }
+    &__center {
+      height: 100vh;
+      padding-top: 100px;
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+      .banner {
+        &__title {
+          font-size: 47px;
+        }
+        &__description {
+          font-size: 20px;
+        }
+      }
+      .portofolio {
+        &__link {
+          font-size: 17px;
+        }
+        &__images {
+          img {
+            height: 156px;
+            width: 222px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+      url('../images/profile.jpeg');
+    background-size: auto;
+    background-position: 92.5% 100%;
+    background-repeat: no-repeat;
+
+    .navbar,
+    .sidebar {
+      display: none;
+    }
+    &__center {
+      height: 100vh;
+      padding-top: 100px;
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+      .banner {
+        &__title {
+          font-size: 35px;
+          margin-left: 15px;
+        }
+        &__description {
+          font-size: 20px;
+        }
+      }
+      .portofolio {
+        text-align: center;
+        &__link {
+          justify-content: center;
+        }
+        &__images {
+          margin-top: 0;
+          img {
+            margin-right: 0;
+            margin-top: 35px;
+            width: 322px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .main {
+    background: none;
+    &__center {
+      .banner {
+        &__title {
+          font-size: 31px;
+        }
+        &__description {
+          font-size: 16px;
+        }
+      }
+      .portofolio {
+        &__images {
+          img {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    &__center {
+      padding-top: 10px;
+      .banner {
+        &__title {
+          font-size: 23px;
+        }
+        &__description {
+          font-size: 14px;
+        }
+      }
+      .portofolio {
+        &__images {
+          img {
+            width: 242px;
+            height: 116px;
+          }
+        }
+      }
+    }
+  }
+}

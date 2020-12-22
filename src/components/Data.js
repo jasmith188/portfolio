@@ -4,7 +4,7 @@ export default {
   landingPageName: 'James Smith',
 
   landingPagePara:
-    "Hello, my name is James Smith and I have recently recieved a Certificate in Full Stack Coding at the University of Central Florida. There I have learned the fundamentals of different Languages and Applications used in front and back end development. I'm looking forward to contributing to my team's success by collaboratively creating different projects and applications.",
+    "I have learned the fundamentals of different Languages and Applications used in front and back end development. I'm looking forward to contributing to my team's success by collaboratively creating different projects and applications.",
 
   landingPagePara2:
     'Working in the hectic restaurant business for the past 15 years has honed my skills in teamwork, time-management and dealing with ambiguity. These skills have allowed me to successfully transition my career from a chef to a Full Stack Developer.',
