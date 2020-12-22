@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import NavBar from './components/NavBar';
 import About from './components/About';
 import Main from './components/Main';
 import Project from './components/Project';
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       {/* <NavBar name={data.name} contactEmail={data.contactEmail} /> */}
-      <Navbar />
+      <NavBar />
       <Main
         name={data.landingPageName}
        
