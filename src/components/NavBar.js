@@ -80,7 +80,7 @@ import { TweenMax, Power3 } from 'gsap';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-function Navbar() {
+const Navbar = () => {
   const [active, setActive] = useState(false);
   let navbar = useRef(null);
   useEffect(() => {
@@ -176,6 +176,6 @@ function Navbar() {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;
