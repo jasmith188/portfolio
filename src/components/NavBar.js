@@ -75,7 +75,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Navbar.scss';
 import { Squash as Hamburger } from 'hamburger-react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import { TweenMax, Power3 } from 'gsap';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
@@ -112,7 +112,7 @@ function Navbar() {
         >
           About
         </Link>
-        <Link
+        {/* <Link
           to="skills"
           spy={true}
           smooth={true}
@@ -122,10 +122,10 @@ function Navbar() {
           className="navbar-mobile__link"
         >
           Skills
-        </Link>
+        </Link> */}
         <Link
-          to="projects"
-          href="#projects"
+          to="project"
+          href="#project"
           spy={true}
           smooth={true}
           offset={window.innerWidth > 768 ? -100 : 0}
@@ -152,6 +152,7 @@ function Navbar() {
             className="navbar-mobile__icon-link"
             href="https://github.com/jasmith188"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <GitHubIcon className="navbar-mobile__icon" />
           </a>
@@ -159,6 +160,7 @@ function Navbar() {
             className="navbar-mobile__icon-link"
             href="https://www.instagram.com/jimmysmith812/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <InstagramIcon className="navbar-mobile__icon" />
           </a>
@@ -166,6 +168,7 @@ function Navbar() {
             className="navbar-mobile__icon-link"
             href="https://www.linkedin.com/in/jamessmith812/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <LinkedInIcon className="navbar-mobile__icon" />
           </a>
