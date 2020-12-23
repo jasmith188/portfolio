@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardDeck } from 'react-bootstrap';
-const CardPage = () => {
+const Skills = () => {
   return (
     <div>
       <h1>Skills</h1>
@@ -51,4 +51,4 @@ const CardPage = () => {
   );
 };
 
-export default CardPage;
+export default Skills;

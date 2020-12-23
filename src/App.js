@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/NavBar';
-import About from './components/About';
-import Main from './components/Main';
-import Project from './components/Project';
+import NavBar from './components/NavBar/NavBar';
+import About from './components/About/About';
+import Main from './components/Main/Main';
+import Project from './components/Project/Project';
 import data from './components/Data';
 // import CardPage from './components/CardPage';
-import ContactForm from './components/ContactForm';
+import ContactForm from './components/Contact/Contact';
 
 function App() {
   return (

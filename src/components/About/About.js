@@ -114,7 +114,8 @@ const About = ({ paragraph, paragraph2 }) => {
               download
             >
               <button className="information__CV">
-                <GetAppIcon />Download Resume
+                <GetAppIcon />
+                Download Resume
               </button>
             </a>
           </div>

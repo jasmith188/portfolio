@@ -1,7 +1,8 @@
 import React from 'react';
-import '../App.css';
+import '../../App.css';
+import { Form } from 'react-bootstrap';
 
-export default class Contact extends React.Component {
+export default class ContactForm extends React.Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
@@ -21,51 +22,45 @@ export default class Contact extends React.Component {
               <br />
               <p>Want to get in touch?</p>
 
-              <p>Let's collaborate</p>
+              <p>I am interested in freelance opportunities - especially ambitious or large projects. However, if you have other requests or questions, don’t hesitate to contact me using the form below either and I'll get back to you as soon as possible.</p>
               <p>
                 <a href="tel:704-909-8461">Cell Phone: (704)-909-8461</a>
               </p>
-              <p>
-                {/* <a href="https://docs.google.com/document/d/1jQ01tXNrs9hSdPc4pE2GaUnmryYHTU4RS6BHQNDX5v0/edit?usp=sharing">
-                  Resume
-                </a> */}
-              </p>
-              <form
+
+              <Form
                 onSubmit={this.submitForm}
                 action="https://formspree.io/f/mvovzakj"
                 method="POST"
               >
-                <div className="label-name">
-                  <label>Name: </label>
-                  <input type="text" name="name" required />
-                </div>
-                <br />
-                <div className="label-email">
-                  <label>Email: </label>
-                  <input type="email" name="email" required />
-                </div>
-                <br />
-                <div className="label-subject">
-                  <label>Subject: </label>
-                  <input type="text" name="subject" />
-                </div>
-                <br />
-                <div className="label-message">
-                  <label>
-                    Message: <span className="required"></span>{' '}
-                  </label>
-                  <textarea type="text" name="message" required />
-                </div>
+                <Form.Group controlId="exampleForm.ControlInput1">
+                  <Form.Label>Name: </Form.Label>
+                  <Form.Control type="text" name="name" required />
+                  {/* </Form.Group> */}
+                  {/* <Form.Group controlId="exampleForm.ControlSelect1"> */}
+                  <Form.Label>Email: </Form.Label>
+                  <Form.Control type="email" name="email" required />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlSelect2">
+                  <Form.Label>Subject: </Form.Label>
+                  <Form.Control type="text" name="subject" />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlTextarea1">
+                  <Form.Label>Message: </Form.Label>
+                  <Form.Control
+                    as="textarea"
+                    type="text"
+                    name="message"
+                    required
+                    rows={3}
+                  />
+                </Form.Group>
                 {status === 'SUCCESS' ? (
-                  <p>
-                    Thanks for messaging me. I'll get back to you as soon as
-                    possible!
-                  </p>
+                  <p>Thanks!</p>
                 ) : (
                   <button className="btn-primary">Submit</button>
                 )}
                 {status === 'ERROR' && <p>Ooops! There was an error.</p>}
-              </form>
+              </Form>
             </div>
             <div className="col-md-4 offset-md-1 mx-3 my-3">
               <div className="view overlay">

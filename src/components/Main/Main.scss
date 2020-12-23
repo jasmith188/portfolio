@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 
 .main {
+  background-size: 100% !important;
   height: 100vh;
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url('../images/profile.jpeg');
+    url('../../images/profile.jpeg');
   background-repeat: no-repeat;
   background-position: 100% 100%;
 
@@ -55,7 +56,7 @@
     justify-content: flex-end;
     height: 70vh;
     .banner {
-      margin-bottom: 65px;
+      // margin-bottom: 65px;
       &__title {
         font-family: "Krona One", sans-serif;
         font-size: 57px;
@@ -120,7 +121,7 @@
 
 @media screen and (max-width: 1440px) {
   .main {
-    background-size: 80%;
+    background-size: 100%;
     &__center {
       height: 60vh;
       .banner {
@@ -148,7 +149,7 @@
 
 @media screen and (max-width: 1366px) {
   .main {
-    background-size: 75%;
+    background-size: 100%;
     .navbar {
       max-width: 500px;
       &__link {
@@ -163,7 +164,7 @@
 
 @media screen and (max-width: 1280px) {
   .main {
-    background-size: 90%;
+    background-size: 100%;
     &__center {
       height: 65vh;
       .banner {
@@ -194,7 +195,7 @@
 
 @media screen and (max-width: 1024px) {
   .main {
-    background-size: 95%;
+    background-size: 100%;
     .sidebar {
       &__link {
         .MuiSvgIcon-root {
@@ -228,8 +229,8 @@
 @media screen and (max-width: 768px) {
   .main {
     background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-      url('../images/profile.jpeg');
-    background-size: auto;
+      url('../../images/profile.jpeg');
+    background-size: 100%;
     background-position: 92.5% 100%;
     background-repeat: no-repeat;
 
@@ -268,11 +269,13 @@
 
 @media screen and (max-width: 480px) {
   .main {
-    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-      url('../images/profile.jpeg');
-    background-size: auto;
-    background-position: 92.5% 100%;
-    background-repeat: no-repeat;
+    // background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    //   url('../../images/profile.jpeg');
+    // background-size: auto !important;
+    // background-position: 92.5% 100%;
+    // background-repeat: no-repeat;
+
+    background: none;
 
     .navbar,
     .sidebar {
@@ -287,9 +290,12 @@
       .banner {
         &__title {
           font-size: 35px;
+          color: black;
         }
         &__description {
           font-size: 20px;
+          color: black;
+
         }
       }
       .portofolio {
