@@ -311,7 +311,7 @@
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 440px) {
   .main {
     background: none;
     &__center {
