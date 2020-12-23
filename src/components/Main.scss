@@ -287,7 +287,6 @@
       .banner {
         &__title {
           font-size: 35px;
-          margin-left: 15px;
         }
         &__description {
           font-size: 20px;
@@ -311,7 +310,7 @@
   }
 }
 
-@media screen and (min-width: 440px) {
+@media screen and (max-width: 414px) {
   .main {
     background: none;
     &__center {
