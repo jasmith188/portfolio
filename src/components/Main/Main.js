@@ -11,9 +11,9 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
   let animate = {
     title: useRef(null),
     description: useRef(null),
-    portofolioLink: useRef(null),
-    // portofolioImage1: useRef(null),
-    // portofolioImage2: useRef(null),
+    portfolioLink: useRef(null),
+    // portfolioImage1: useRef(null),
+    // portfolioImage2: useRef(null),
   };
 
   useEffect(() => {
@@ -27,17 +27,17 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
       delay: 0.8,
       ease: Power3.easeOut,
     });
-    TweenMax.to(animate.portofolioLink, 1, {
+    TweenMax.to(animate.portfolioLink, 1, {
       opacity: 1,
       delay: 1.1,
       ease: Power3.easeOut,
     });
-    // TweenMax.to(animate.portofolioImage1, 1, {
+    // TweenMax.to(animate.portfolioImage1, 1, {
     //   opacity: 0.75,
     //   delay: 1.4,
     //   ease: Power3.easeOut,
     // });
-    // TweenMax.to(animate.portofolioImage2, 1, {
+    // TweenMax.to(animate.portfolioImage2, 1, {
     //   opacity: 0.75,
     //   delay: 1.7,
     //   ease: Power3.easeOut,
@@ -101,7 +101,7 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
       <div className="sidebar">
         <a
           className="sidebar__link"
-          href="https://github.com/AndreiManea"
+          href="https://github.com/jasmith188"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -109,7 +109,7 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
         </a>
         <a
           className="sidebar__link"
-          href="https://www.instagram.com/andrei.codes/"
+          href="https://www.instagram.com/jimmysmith812/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -117,7 +117,7 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
         </a>
         <a
           className="sidebar__link"
-          href="https://www.linkedin.com/in/andrei-manea-b422b8170/"
+          href="https://www.linkedin.com/in/jamessmith812/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -136,10 +136,10 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
             FULL-STACK DEVELOPER
           </h3>
         </div>
-        <div className="portofolio">
+        <div className="portfolio">
           <div
-            className="portofolio__link-wrapper"
-            ref={(el) => (animate.portofolioLink = el)}
+            className="portfolio__link-wrapper"
+            ref={(el) => (animate.portfolioLink = el)}
           >
             <a
               to="projects"
@@ -147,7 +147,7 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
               smooth={true}
               offset={-100}
               duration={500}
-              className="portofolio__link"
+              className="portfolio__link"
               href="https://docs.google.com/document/d/1d925nouzISSkhkrQ2MGmC7fi4cnUpGM1i0oyX7eAqmM/edit?usp=sharing"
             >
               <span>See My Resume</span>
