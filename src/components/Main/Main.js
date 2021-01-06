@@ -57,7 +57,7 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
         >
           About
         </Link>
-        <Link
+        {/* <Link
           to="experience"
           spy={true}
           smooth={true}
@@ -66,9 +66,9 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
           className="navbar__link"
         >
           Experience
-        </Link>
+        </Link> */}
         <Link
-          to="project"
+          to="mt-5 text-center"
           spy={true}
           smooth={true}
           offset={window.innerWidth > 768 ? -100 : 0}
@@ -77,7 +77,7 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
         >
           Projects
         </Link>
-        <Link
+        {/* <Link
           to="skills"
           spy={true}
           smooth={true}
@@ -86,7 +86,7 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
           className="navbar__link"
         >
           Skills
-        </Link>
+        </Link> */}
         <Link
           to="contact"
           spy={true}
