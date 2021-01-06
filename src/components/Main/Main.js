@@ -68,7 +68,7 @@ const Main = ({ name, paragraph, paragraph2, landingPageImage }) => {
           Experience
         </Link>
         <Link
-          to="projects"
+          to="project"
           spy={true}
           smooth={true}
           offset={window.innerWidth > 768 ? -100 : 0}

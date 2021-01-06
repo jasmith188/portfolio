@@ -73,7 +73,7 @@
 // export default NavBar;
 
 import React, { useEffect, useRef, useState } from 'react';
-import '../NavBar/NavBar';
+import '../NavBar/NavBar.scss';
 import { Squash as Hamburger } from 'hamburger-react';
 import { Link } from 'react-scroll';
 import { TweenMax, Power3 } from 'gsap';
@@ -125,36 +125,26 @@ const NavBar = () => {
           Skills
         </Link> */}
         <Link
-          className="ml-auto"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={1000}
           to="project"
           href="#project"
-        >
-          Projects
-        </Link>
-        {/* <Link
           spy={true}
           smooth={true}
-          offset={-70}
-          duration={1000}
-          to="project"
-          href="#project"
+          offset={window.innerWidth > 768 ? -100 : 0}
+          duration={500}
           onClick={() => setActive(false)}
           className="navbar-mobile__link"
         >
-          Contact
-        </Link> */}
+          Projects
+        </Link>
         <Link
-          className="ml-auto"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={1000}
           to="contact"
           href="#contact"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={1000}
+          onClick={() => setActive(false)}
+          className="navbar-mobile__link"
         >
           Contact
         </Link>

@@ -14,42 +14,44 @@ import {
 
 const Project = ({ projects }) => {
   return (
-    <MDBContainer id="project" className="mt-5 text-center">
-      <h1>Projects</h1>
-      <MDBRow>
-        <MDBCol>
-          {projects.map((project) => (
-            <MDBJumbotron>
-              <MDBCardBody>
-                <MDBCardTitle className="h5">{project.title}</MDBCardTitle>
-                <MDBCardImage src={project.imageSrc} className="img-fluid" />
-                <p className="blue-text my-4 font-weight-bold">
-                  {project.tools}
-                </p>
-                <MDBCardText>{project.info}</MDBCardText>
-                <hr className="my-4" />
-                <div className="btn-toolbar">
-                  <MDBBtn
-                    href={project.demo}
-                    color="primary"
-                    className="waves-effect"
-                  >
-                    App <MDBIcon far icon="gem" />
-                  </MDBBtn>
-                  <MDBBtn
-                    href={project.github}
-                    color="primary"
-                    className="waves-effect"
-                  >
-                    Github <MDBIcon far icon="gem" />
-                  </MDBBtn>
-                </div>
-              </MDBCardBody>
-            </MDBJumbotron>
-          ))}
-        </MDBCol>
-      </MDBRow>
-    </MDBContainer>
+    
+      <MDBContainer id="project" className="mt-5 text-center">
+        <h1>Projects</h1>
+        <MDBRow>
+          <MDBCol>
+            {projects.map((project) => (
+              <MDBJumbotron>
+                <MDBCardBody>
+                  <MDBCardTitle className="h5">{project.title}</MDBCardTitle>
+                  <MDBCardImage src={project.imageSrc} className="img-fluid" />
+                  <p className="blue-text my-4 font-weight-bold">
+                    {project.tools}
+                  </p>
+                  <MDBCardText>{project.info}</MDBCardText>
+                  <hr className="my-4" />
+                  <div className="btn-toolbar">
+                    <MDBBtn
+                      href={project.demo}
+                      color="primary"
+                      className="waves-effect"
+                    >
+                      App <MDBIcon far icon="gem" />
+                    </MDBBtn>
+                    <MDBBtn
+                      href={project.github}
+                      color="primary"
+                      className="waves-effect"
+                    >
+                      Github <MDBIcon far icon="gem" />
+                    </MDBBtn>
+                  </div>
+                </MDBCardBody>
+              </MDBJumbotron>
+            ))}
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
+   
   );
 };
 
