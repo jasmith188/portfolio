@@ -13,14 +13,11 @@ function App() {
     <div className="App">
       {/* <NavBar name={data.name} contactEmail={data.contactEmail} /> */}
       <NavBar />
-      <Main
-        name={data.landingPageName}
-       
-        authorImage={data.landingPageImage}
-      />
+      <Main name={data.landingPageName} authorImage={data.landingPageImage} />
       <About
-       paragraph={data.landingPagePara}
-       paragraph2={data.landingPagePara2}/>
+        paragraph={data.landingPagePara}
+        paragraph2={data.landingPagePara2}
+      />
       {/* <CardPage /> */}
       <Project projects={data.projects} />
       <ContactForm />

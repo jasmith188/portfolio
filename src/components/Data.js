@@ -29,7 +29,7 @@ export default {
       title: 'Weather Today',
       info:
         'In this application users want to know the current and 5-day weather for an exact location and retrieve it by typing in city and choosing a country',
-      tools: 'Utilized: HTML, CSS, JavaScript, React, Bootstrap, API data (MOBILE - FRIENDLY)',
+      tools: 'Utilized: HTML, CSS, JavaScript, React, Bootstrap, API data (MOBILE RESPONSIVE)',
       imageSrc: '/assets/weathertoday.png',
 
       demo: 'https://jasmith188.github.io/WeatherToday/',
