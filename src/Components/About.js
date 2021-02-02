@@ -6,7 +6,6 @@ const About = ({ data }) => {
     var profilepic = "images/" + data.image;
     var bio = data.bio;
     var bio2 = data.bio2;
-    var street = data.address.street;
     var city = data.address.city;
     var state = data.address.state;
     var zip = data.address.zip;
