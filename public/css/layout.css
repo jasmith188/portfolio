@@ -239,6 +239,26 @@ ul#nav li.current a { color: #F06000; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
+#resume .contact-details { width: 41.66667%; }
+#resume .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#resume .main-col { padding-right: 5%; }
+#resume .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#resume .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#resume .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+
 #resume {
    background: #fff;
    padding-top: 90px;
@@ -246,8 +266,8 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: orange; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a, #resume a:visited  { color: white; }
+#resume a:hover, #resume a:focus { color: orange; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;

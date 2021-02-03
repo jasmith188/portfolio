@@ -3,6 +3,7 @@ import React from "react";
 const Resume = ({ data }) => {
   if (data) {
     var skillmessage = data.skillmessage;
+    var resumeDownload = data.resumedownload;
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -39,7 +40,14 @@ const Resume = ({ data }) => {
   }
 
   return (
-    <section id="resume">
+    <section id='resume'>
+       <center><div  className="columns download">
+              <p>
+                <a href={resumeDownload} className="button">
+                  <i className="fa fa-download"></i>Download Resume
+                </a>
+              </p>
+            </div></center>
       <div className="row education">
         <div className="three columns header-col">
           <h1>
