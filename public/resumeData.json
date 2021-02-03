@@ -36,6 +36,7 @@
     ]
   },
   "resume": {
+    "resumeSummary": "Looking to join a dynamic company as a Full Stack Developer. Strong interpersonal skills and proven ability to manage positive and productive teams. I have a passion to learn new technologies and create solutions to improve the user experience in websites and applications. ",
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
@@ -67,12 +68,16 @@
     ],
     "skills": [
       {
-        "name": "Web Development",
+        "name": "RESTful Services and API",
+        "level": "75%"
+      },
+      {
+        "name": "HTML/CSS",
         "level": "95%"
       },
       {
         "name": "JavaScript",
-        "level": "85%"
+        "level": "75%"
       },
       {
         "name": "ReactJs",
@@ -80,9 +85,12 @@
       },
       {
         "name": "Git",
-        "level": "70%"
+        "level": "80%"
+      },
+      {
+        "name": "Project Management",
+        "level": "85%"
       }
-      
       
     ]
   },

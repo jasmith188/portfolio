@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
 
 const Resume = ({ data }) => {
   if (data) {
     var skillmessage = data.skillmessage;
-    var resumeDownload = data.resumedownload;
+    var resumeSummary = data.resumeSummary;
+    // var resumeDownload = data.resumedownload;
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -29,7 +30,7 @@ const Resume = ({ data }) => {
       );
     });
     var skills = data.skills.map(function (skills) {
-      var className = "bar-expand " + skills.name.toLowerCase();
+      var className = 'bar-expand ' + skills.name.toLowerCase();
       return (
         <li key={skills.name}>
           <span style={{ width: skills.level }} className={className}></span>
@@ -40,14 +41,17 @@ const Resume = ({ data }) => {
   }
 
   return (
-    <section id='resume'>
-       <center><div  className="columns download">
-              <p>
-                <a href={resumeDownload} className="button">
-                  <i className="fa fa-download"></i>Download Resume
-                </a>
-              </p>
-            </div></center>
+    <section id="resume">
+      {/* <center>
+        <div className="columns download">
+          <p>
+            <a href={resumeDownload} className="button">
+              <i className="fa fa-download"></i>Download Resume
+            </a>
+          </p>
+        </div>
+      </center> */}
+      <center><b><p>{resumeSummary}</p></b></center>
       <div className="row education">
         <div className="three columns header-col">
           <h1>

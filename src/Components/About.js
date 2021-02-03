@@ -12,6 +12,8 @@ const About = ({ data }) => {
     var zip = data.address.zip;
     var phone = data.phone;
     var email = data.email;
+    var resumeDownload = data.resumedownload;
+
   }
 
   return (
@@ -46,11 +48,11 @@ const About = ({ data }) => {
                 <span>{email}</span>
               </p>
             </div>
-            <div  className="columns download">
+            <div className="columns download">
               <p>
-                {/* <a href={resumeDownload} className="button">
+                <a href={resumeDownload} className="button">
                   <i className="fa fa-download"></i>Download Resume
-                </a> */}
+                </a>
               </p>
             </div>
           </div>
