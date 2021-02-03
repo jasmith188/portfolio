@@ -73,6 +73,7 @@ const Header = ({ data }) => {
           </h3>
           <hr />
           <ul className="social">{networks}</ul>
+          
         </div>
       </div>
 

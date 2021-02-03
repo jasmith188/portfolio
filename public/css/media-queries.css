@@ -50,7 +50,7 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 120px;
+      width: auto;
       height: 190px;
       margin-left: 12px;
    }
@@ -257,6 +257,17 @@
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
+
+   .portfolio__projectImage {
+      padding: 20px;
+      height: 250px;
+      width: auto;
+   }
+
+   .waves-effect {
+      padding: 0px 5px;
+      font-size:14px;
+   }
 
 
    /* Testimonials Section

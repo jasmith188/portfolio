@@ -64,7 +64,7 @@ const Portfolio = ({ projects }) => {
           <MDBJumbotron>
             <MDBCardBody>
               <MDBCardTitle className="overlay">{project.title}</MDBCardTitle>
-              <MDBCardImage src={project.imageSrc} className="img-fluid" />
+              <MDBCardImage src={project.imageSrc} className="portfolio__projectImage" />
               <p className="blue-text my-4 font-weight-bold">{project.tools}</p>
               <card>{project.info}</card>
               <hr className="my-4" />
