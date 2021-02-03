@@ -455,6 +455,13 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
+
+.waves-effect {
+   margin: 18px;
+}
+
+
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;

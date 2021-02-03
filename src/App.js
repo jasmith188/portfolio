@@ -7,6 +7,7 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
+import data from './Components/Data';
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
@@ -23,7 +24,8 @@ const App = () => {
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />
-      <Portfolio data={resumeData.portfolio} />
+      {/* <Portfolio data={resumeData.portfolio} /> */}
+      <Portfolio projects={data.projects} />
       
       <Testimonials data={resumeData.testimonials} />
       <Contact data={resumeData.main} />
