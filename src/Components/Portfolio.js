@@ -46,41 +46,35 @@
 // export default Portfolio;
 
 import React from 'react';
-import {
-  MDBJumbotron,
-  MDBContainer,
-  MDBIcon,
-  MDBCardTitle,
-  MDBCardImage,
-  MDBCardBody,
-} from 'mdbreact';
 
 const Portfolio = ({ projects }) => {
   return (
-    <MDBContainer id="portfolio" className="mt-5 text-center">
+    <div id="portfolio" className="mt-5 text-center">
       <h1>Projects</h1>
       <div className="row">
         {projects.map((project) => (
-          <MDBJumbotron>
-            <MDBCardBody>
-              <MDBCardTitle className="overlay">{project.title}</MDBCardTitle>
-              <MDBCardImage src={project.imageSrc} className="portfolio__projectImage" />
-              <p className="blue-text my-4 font-weight-bold">{project.tools}</p>
-              <card>{project.info}</card>
-              <hr className="my-4" />
-              <div className="btn-toolbar">
-                <button href={project.demo} className="waves-effect">
-                  App <MDBIcon far icon="gem" />
-                </button>
-                <button href={project.github} className="waves-effect">
-                  Github <MDBIcon far icon="gem" />
-                </button>
-              </div>
-            </MDBCardBody>
-          </MDBJumbotron>
+          <div>
+            <div className="portfolio__title">{project.title}</div>
+            {/* <div >
+              <button >
+                <a className='portfolio__githubButton' href={project.github}>Github</a>
+              </button>
+            </div> */}
+            <a href={project.demo} className="waves-effect">
+              <img
+                src={project.imageSrc}
+                className="portfolio__projectImage"
+                alt="project-display"
+              />
+            </a>
+            <p className="blue-text my-4 font-weight-bold">{project.tools}</p>
+            <card>{project.info}</card>
+            <hr className="my-4" />
+            <div className="btn-toolbar"></div>
+          </div>
         ))}
       </div>
-    </MDBContainer>
+    </div>
   );
 };
 

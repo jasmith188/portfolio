@@ -38,15 +38,15 @@ export default {
 
     {
       id: 3,
-      title: 'Vacation Makers',
+      title: 'Netflix-Clone',
       info:
-        'This is an application that allows users to vacation to Florida with a budget. Choose your flight, hotel, restaurant or attraction and add it to your budget for your trip.',
+        'This Application is a Netflix Clone.',
       tools:
-        'Utilized: HTML, CSS, Javascript, MongoDB, Express, React, Node.js, Bootstrap, Full MERN Application',
-      imageSrc: '../images/portfolio/vacationmakers.png',
+        'Utilized: HTML, CSS, Javascript, React, Firebase Authentication and Database, TMDB API for movie data,',
+      imageSrc: '../images/portfolio/netflix-clone.png',
 
-      demo: 'https://the-vacation-makers.herokuapp.com/',
-      github: 'https://github.com/jasmith188/VacationMakers',
+      demo: 'https://netfilx-clone-b08c7.web.app/',
+      github: 'https://github.com/jasmith188/netflix-react',
     },
   ],
 };
