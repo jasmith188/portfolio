@@ -49,11 +49,11 @@ import React from 'react';
 
 const Portfolio = ({ projects }) => {
   return (
-    <div id="portfolio" className="mt-5 text-center">
+    <div id="portfolio" className="portfolio mt-5 text-center">
       <h1>Projects</h1>
       <div className="row">
         {projects.map((project) => (
-          <div>
+          <div className='card'>
             <div className="portfolio__title">{project.title}</div>
             {/* <div >
               <button >

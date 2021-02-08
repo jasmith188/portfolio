@@ -382,6 +382,16 @@
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
 
+    /* portfolio
+   ------------------------------------------------------------------------ */
+
+.portfolio__projectImage {
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  width: auto;
+}
+
    /* footer
    ------------------------------------------------------------------------ */
 

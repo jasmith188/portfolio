@@ -515,6 +515,9 @@ ul#nav li.current a {
 .portfolio__projectImage {
   width: auto;
   height: 460px;
+  /* justify-content: center; */
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .portfolio__title {
@@ -527,6 +530,10 @@ ul#nav li.current a {
   color: white !important;
 }
 /* Portfolio Content */
+
+.portfolio {
+  justify-content: center;
+}
 
 .waves-effect {
   margin: 18px;
