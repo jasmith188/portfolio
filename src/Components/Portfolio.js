@@ -53,7 +53,7 @@ const Portfolio = ({ projects }) => {
       <h1>Projects</h1>
       <div className="row">
         {projects.map((project) => (
-          <div className='card'>
+          <div className="card">
             <div className="portfolio__title">{project.title}</div>
             {/* <div >
               <button >
