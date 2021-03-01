@@ -57,8 +57,8 @@ export default {
         'Utilized: HTML, CSS, JavaScript, React, React Hooks, Material UI,',
       imageSrc: '../images/portfolio/covid-19-tracker.png',
 
-      demo: 'https://netfilx-clone-b08c7.web.app/',
-      github: 'https://github.com/jasmith188/netflix-react',
+      demo: 'https://dreamy-khorana-1fd10a.netlify.app/',
+      github: 'https://github.com/jasmith188/covid-19-tracker',
     },
   ],
 };
