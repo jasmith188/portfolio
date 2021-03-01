@@ -50,7 +50,7 @@ import React from 'react';
 const Portfolio = ({ projects }) => {
   return (
     <div id="portfolio" className="portfolio mt-5 text-center">
-      <h1>Projects</h1>
+      <h1 className='portfolio__topTitle'>Projects</h1>
       <div className="row">
         {projects.map((project) => (
           <div className="card">
@@ -67,8 +67,8 @@ const Portfolio = ({ projects }) => {
                 alt="project-display"
               />
             </a>
-            <p className="blue-text my-4 font-weight-bold">{project.tools}</p>
-            <card>{project.info}</card>
+            <p className="portfolio__toolsUsed">{project.tools}</p>
+            <card className='portfolio__info'>{project.info}</card>
             <hr className="my-4" />
             <div className="btn-toolbar"></div>
           </div>

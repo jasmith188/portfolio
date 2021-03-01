@@ -51,7 +51,11 @@ const Resume = ({ data }) => {
           </p>
         </div>
       </center> */}
-      <center><b><p>{resumeSummary}</p></b></center>
+      <center>
+        <b>
+          <p className="resume__summary">{resumeSummary}</p>
+        </b>
+      </center>
       <div className="row education">
         <div className="three columns header-col">
           <h1>

@@ -298,7 +298,7 @@ ul#nav li.current a {
   background: #444;
 }
 #resume .download .button:hover {
-  background: #fff;
+  background: #fff ;
   color: #2b2b2b;
 }
 #resume .download .button i {
@@ -307,10 +307,17 @@ ul#nav li.current a {
 }
 
 #resume {
-  background: #fff;
+  background: black;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
+}
+
+.resume__summary {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
 
 #resume a,
@@ -327,12 +334,22 @@ ul#nav li.current a {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+#resume span {
+  color: #fff;
+}
+
 #resume h1 span {
   border-bottom: 3px solid orange;
   padding-bottom: 6px;
 }
 #resume h3 {
   font: 25px/30px 'opensans-bold', sans-serif;
+  color: #fff;
+}
+
+#resume p.info {
+  color: #fff;
 }
 
 #resume .header-col {
@@ -363,6 +380,9 @@ ul#nav li.current a {
   margin-top: 6px;
 }
 
+
+
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -386,7 +406,7 @@ ul#nav li.current a {
 }
 .bars li em {
   font: 15px 'opensans-bold', sans-serif;
-  color: #313131;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;
@@ -524,6 +544,8 @@ ul#nav li.current a {
   font-size: 34px;
   font-weight: bolder;
   padding-bottom: 15px;
+  color: #ffa500;
+  margin-bottom: 10px;
 }
 
 .portfolio__githubButton {
@@ -557,6 +579,21 @@ ul#nav li.current a {
 .portfolio-item .item-wrap a {
   display: block;
   cursor: pointer;
+}
+
+.portfolio__topTitle {
+  font-size: 45px !important;
+  color: black !important;
+}
+
+.portfolio__toolsUsed {
+  color: black;
+  font-weight: bolder;
+}
+
+.portfolio__info {
+  color: black;
+  font-weight: bold;
 }
 
 /* overlay */

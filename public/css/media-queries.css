@@ -392,6 +392,13 @@
   width: auto;
 }
 
+.resume__summary {
+   /* text-align: center; */
+   padding-left: 15px;
+   padding-right: 15px;
+ 
+ }
+
    /* footer
    ------------------------------------------------------------------------ */
 

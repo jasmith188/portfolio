@@ -38,12 +38,24 @@ export default {
 
     {
       id: 3,
-      title: 'Netflix-Clone',
+      title: 'Movie Screen',
       info:
-        'This Application is a Netflix Clone.',
+        'This React Redux App is a recreation of the famous Netflix app',
       tools:
         'Utilized: HTML, CSS, Javascript, React, Firebase Authentication and Database, TMDB API for movie data,',
-      imageSrc: '../images/portfolio/netflix-clone.png',
+      imageSrc: '../images/portfolio/movie-screen.png',
+
+      demo: 'https://netfilx-clone-b08c7.web.app/',
+      github: 'https://github.com/jasmith188/netflix-react',
+    },
+    {
+      id: 4,
+      title: 'COVID-19 Tracker',
+      info:
+        'Users want to know the current status of COVID-19 cases throughout the world',
+      tools:
+        'Utilized: HTML, CSS, JavaScript, React, React Hooks, Material UI,',
+      imageSrc: '../images/portfolio/covid-19-tracker.png',
 
       demo: 'https://netfilx-clone-b08c7.web.app/',
       github: 'https://github.com/jasmith188/netflix-react',
