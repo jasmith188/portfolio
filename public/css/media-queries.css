@@ -442,10 +442,10 @@
   }
 
   .header__nameTitle {
-   color: orange !important;
-   font-size: 40px !important;
-   line-height: 50px !important;
- }
+    color: orange !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
 
   /* header social links */
   header .social {

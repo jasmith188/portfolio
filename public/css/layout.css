@@ -303,7 +303,7 @@ ul#nav li.current a {
   background: #444;
 }
 #resume .download .button:hover {
-  background: #fff ;
+  background: #fff;
   color: #2b2b2b;
 }
 #resume .download .button i {
@@ -322,7 +322,6 @@ ul#nav li.current a {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
-
 }
 
 #resume a,
@@ -384,9 +383,6 @@ ul#nav li.current a {
   font: 15px/24px 'opensans-regular', sans-serif;
   margin-top: 6px;
 }
-
-
-
 
 /*----------------------------------------------*/
 /*	Skill Bars

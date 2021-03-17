@@ -26,14 +26,15 @@ export default {
     },
     {
       id: 2,
-      title: 'Weather Today',
+      title: 'Tide Forecast',
       info:
-        'In this application users want to know the current and 5-day weather for an exact location and retrieve it by typing in city and choosing a country',
-      tools: 'Utilized: HTML, CSS, JavaScript, React, Bootstrap, API data',
-      imageSrc: '/assets/weathertoday.png',
+        'In this application users want to know the current and weather and tide forecast by users geo-location',
+      tools:
+        'Utilized: HTML, CSS, JavaScript, React and fetching two seperate APIs',
+      imageSrc: '../images/portfolio/tide-forecast.png',
 
-      demo: 'https://jasmith188.github.io/WeatherToday/',
-      github: 'https://github.com/jasmith188/WeatherToday',
+      demo: 'https://tide-forecast.netlify.app/',
+      github: 'https://github.com/jasmith188/tide-forecast',
     },
 
     {
@@ -42,7 +43,7 @@ export default {
       info: 'This React Redux App is a recreation of the famous Netflix app',
       tools:
         'Utilized: HTML, CSS, Javascript, React, Firebase Authentication and Database, TMDB API for movie data,',
-      imageSrc: '../images/portfolio/movie-screen.png',
+      imageSrc: '../images/portfolio/moviescreen.png',
 
       demo: 'https://netfilx-clone-b08c7.web.app/',
       github: 'https://github.com/jasmith188/netflix-react',
