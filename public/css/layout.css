@@ -71,8 +71,13 @@ header .banner-text h1 {
   padding-bottom: 20px;
 }
 
-.header__typewriter {
+/* .header__typewriter {
   line-height: 100px;
+} */
+
+.header__nameTitle {
+  color: orange !important;
+  font-size: 50px !important;
 }
 
 header .banner-text h3 {

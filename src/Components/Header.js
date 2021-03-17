@@ -1,9 +1,9 @@
 import React from "react";
-import TypeWriter from "react-typewriter";
+// import TypeWriter from "react-typewriter";
 
 const Header = ({ data }) => {
   if (data) {
-    var name = data.name;
+    // var name = data.name;
     var occupation = data.occupation;
     var description = data.description;
     var city = data.address.city;
@@ -66,7 +66,9 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter className='header__typewriter' typing={0.5}>{name ? `Hello, I'm ${name}` : null}</TypeWriter>
+            {/* <TypeWriter className='header__typewriter' typing={0.5}>{name ? `Hello, I'm ${name}` : null}</TypeWriter> */}
+            <h1 className='header__nameTitle'>Hello, I'm James Smith</h1>
+
           </h1>
           <h3>
             Based in {city}, {state}. <span>I am a {occupation}</span>. {description}

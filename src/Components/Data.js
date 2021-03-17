@@ -39,8 +39,7 @@ export default {
     {
       id: 3,
       title: 'Movie Screen',
-      info:
-        'This React Redux App is a recreation of the famous Netflix app',
+      info: 'This React Redux App is a recreation of the famous Netflix app',
       tools:
         'Utilized: HTML, CSS, Javascript, React, Firebase Authentication and Database, TMDB API for movie data,',
       imageSrc: '../images/portfolio/movie-screen.png',
