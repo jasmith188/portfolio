@@ -49,6 +49,12 @@
     ],
     "work": [
       {
+        "company": "Epicypher Inc.",
+        "title": "Web Developer",
+        "years": "March 2021 - Present",
+        "description": "Improved efficiency and readability of previously maintained code modules through code refactoring, optimization and documentation of eCommerce platform"
+      },
+      {
         "company": "Grille At Riverview",
         "title": "Executive Sous Chef",
         "years": "June 2019 - February 2020",
@@ -59,12 +65,6 @@
         "title": "Sous Chef",
         "years": "July 2019 - November 2019",
         "description": "At Cress I worked under multiple nominated James Beard award winning Chef Hari Pulapaka. I Helped re-open after 11 years and bring it back to its roots using local ingredients and a creative menu"
-      },
-      {
-        "company": "Mortar and Pestle",
-        "title": "Sous Chef",
-        "years": "November 2017 - February 2019",
-        "description": "At Mortar & Pestle I was the lead Chef working close with the chef-owner Stephen Ross and helped maintain and deliver creative and tasteful food at a very busy brunch location."
       }
     ],
     "skills": [
