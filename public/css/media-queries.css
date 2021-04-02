@@ -435,6 +435,7 @@
   header .banner-text h1 {
     font: 40px/1.1em 'opensans-bold', sans-serif;
     margin: 0 auto 24px auto;
+    padding-top: 80px
   }
   header .banner-text h3 {
     font: 14px/1.9em 'librebaskerville-regular', sans-serif;

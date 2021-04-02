@@ -43,7 +43,7 @@ export default {
       info: 'This React Redux App is a recreation of the famous Netflix app',
       tools:
         'Utilized: HTML, CSS, Javascript, React, Firebase Authentication and Database, TMDB API for movie data,',
-      imageSrc: '../images/portfolio/moviescreen.png',
+      imageSrc: '../images/portfolio/movie-screen.png',
 
       demo: 'https://netfilx-clone-b08c7.web.app/',
       github: 'https://github.com/jasmith188/netflix-react',

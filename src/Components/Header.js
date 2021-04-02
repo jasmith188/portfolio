@@ -5,7 +5,7 @@ const Header = ({ data }) => {
   if (data) {
     // var name = data.name;
     var occupation = data.occupation;
-    var description = data.description;
+    // var description = data.description;
     var city = data.address.city;
     var state = data.address.state;
     var networks = data.social.map(function (network) {
@@ -71,7 +71,8 @@ const Header = ({ data }) => {
 
           </h1>
           <h3>
-            Based in {city}, {state}. <span>I am a {occupation}</span>. {description}
+            I live in {city}, {state}. <span>I'm a {occupation}</span>.
+            {/* {description} */}
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "James Smith",
-    "occupation": "Web Developer",
+    "occupation": "Full Stack Web Developer",
     "description": "I am a former Chef now working in the Tech Industry",
     "image": "water.jpg",
     "image2": "profile.jpeg",
@@ -11,8 +11,8 @@
     "email": "jasmith.188@gmail.com",
     "phone": "7049098461",
     "address": {
-      "city": "Daytona Beach",
-      "state": "Florida",
+      "city": "Charlotte",
+      "state": "North Carolina",
       "zip": "32117"
     },
     "website": "https://www.jamessmithweb.com",
@@ -68,12 +68,9 @@
       }
     ],
     "skills": [
+      
       {
-        "name": "RESTful Services and API",
-        "level": "75%"
-      },
-      {
-        "name": "HTML/CSS",
+        "name": "HTML5/CSS3",
         "level": "95%"
       },
       {
@@ -81,12 +78,20 @@
         "level": "75%"
       },
       {
-        "name": "ReactJs",
+        "name": "React.js",
         "level": "70%"
+      },
+      {
+        "name": "React Native",
+        "level": "50%"
       },
       {
         "name": "Git",
         "level": "80%"
+      },
+      {
+        "name": "RESTful Services and API",
+        "level": "75%"
       },
       {
         "name": "Project Management",

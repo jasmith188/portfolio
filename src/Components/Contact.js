@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const Contact = ({ data }) => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
 
   if (data) {
     var contactName = data.name;
     var street = data.address.street;
     var city = data.address.city;
     var state = data.address.state;
-    var zip = data.address.zip;
+    // var zip = data.address.zip;
     var phone = data.phone;
     var contactEmail = data.email;
     var contactMessage = data.contactmessage;
@@ -127,7 +127,8 @@ const Contact = ({ data }) => {
               <br />
               <br />
               {street} <br />
-              {city}, {state} {zip}
+              {city}, {state}
+              {/* {zip} */}
               <br />
               <span>{phone}</span>
             </p>
