@@ -7,8 +7,8 @@ function About() {
     <div className="about" id="about">
       <div className="about-wrapper">
         <h1 id="title">
-          Hello, I'm Jimmy Smith <br /> I live in Charlotte, North Carolina{' '}
-          <br /> I'm a <span>Web Developer</span>
+          Hello, I'm Jimmy Smith <br /> I Live in Charlotte, NC <br /> I'm a
+          <span>Web Developer</span>
         </h1>
         <p>
           I greatly value self-development. I thrive in environments that push
