@@ -1,91 +1,45 @@
-import React from "react";
+import React from 'react';
+import '../components/Header.css';
 // import TypeWriter from "react-typewriter";
 
-const Header = ({ data }) => {
-  if (data) {
-    // var name = data.name;
-    var occupation = data.occupation;
-    // var description = data.description;
-    var city = data.address.city;
-    var state = data.address.state;
-    var networks = data.social.map(function (network) {
-      return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
+const Header = () => {
+  return (
+    <nav id="nav-wrap">
+      <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+        Show navigation
+      </a>
+      <a className="mobile-btn" href="#home" title="Hide navigation">
+        Hide navigation
+      </a>
+
+      <ul id="nav" className="nav">
+        <li>
+          <a className="smoothscroll" href="#about">
+            About
           </a>
         </li>
-      );
-    });
-  }
-
-  return (
-    <header id="home">
-      <nav id="nav-wrap">
-        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-          Show navigation
-        </a>
-        <a className="mobile-btn" href="#home" title="Hide navigation">
-          Hide navigation
-        </a>
-
-        <ul id="nav" className="nav">
-          <li className="current">
-            <a className="smoothscroll" href="#home">
-              Home
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#about">
-              About
-            </a>
-          </li>
-          {/* <li>
-            <a className="smoothscroll" href="#resume">
-              Resume
-            </a>
-          </li> */}
-          <li>
-            <a className="smoothscroll" href="#portfolio">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#testimonials">
-              Testimonials
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#contact">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <div className="row banner">
-        <div className="banner-text">
-          <h1 className="responsive-headline">
-            {/* <TypeWriter className='header__typewriter' typing={0.5}>{name ? `Hello, I'm ${name}` : null}</TypeWriter> */}
-            <h1 className='header__nameTitle'>Hello, I'm James Smith</h1>
-
-          </h1>
-          <h3>
-            I live in {city}, {state}. <span>I'm a {occupation}</span>.
-            {/* {description} */}
-          </h3>
-          <hr />
-          <ul className="social">{networks}</ul>
-          
-        </div>
-      </div>
-
-      <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
-          <i className="icon-down-circle"></i>
-        </a>
-      </p>
-    </header>
+        <li>
+          <a className="smoothscroll" href="#projects">
+            Projects
+          </a>
+        </li>
+        <li>
+          <a className="smoothscroll" href="#contact">
+            Contact
+          </a>
+        </li>
+        <li>
+          <a
+            className="smoothscroll"
+            href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:74d2dc04-6db1-449c-b055-680709bf879c"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

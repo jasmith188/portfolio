@@ -1,65 +1,51 @@
-import React from "react";
+import React from 'react';
+import './About.css';
+import profilePic from '../images/profile.jpeg';
 
-const About = ({ data }) => {
-  if (data) {
-    var name = data.name;
-    // var profilepic = "images/" + data.image;
-    var cooking = "images/" + data.image2;
-    var bio = data.bio;
-    var bio2 = data.bio2;
-    var city = data.address.city;
-    var state = data.address.state;
-    var zip = data.address.zip;
-    var phone = data.phone;
-    var email = data.email;
-    var resumeDownload = data.resumedownload;
-
-  }
-
+function About() {
   return (
-    <section id="about">
-      <div className="row">
-        <div className="three columns">
-          <img
-            className="profile-pic"
-            src={cooking}
-            alt="Jimmy's Profile Pic"
-          />
-        </div>
-        <div className="nine columns main-col">
-          <h2>About Me</h2>
-
-          <p>{bio}</p>
-         
-          <p>{ bio2}</p>
-          <div className="row">
-            <div className="columns contact-details">
-              <h2>Contact Details</h2>
-              <p className="address">
-                <span>{name}</span>
-                <br />
-                <span>
-                 
-                  {city} {state}, {zip}
-                </span>
-                <br />
-                <span>{phone}</span>
-                <br />
-                <span>{email}</span>
-              </p>
-            </div>
-            <div className="columns download">
-              <p>
-                <a href={resumeDownload} className="button">
-                  <i className="fa fa-download"></i>Download Resume
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
+    <div className="about" id="about">
+      <div className="about-wrapper">
+        <h1 id="title">
+          Hello, I'm Jimmy Smith <br /> I'm a <span>Web Developer</span>
+        </h1>
+        <p>
+          I greatly value self-development. I thrive in environments that push
+          me to grow. I am a highly motivated and progress-focused Web Developer
+          with 2+ years of experience. Working in the hectic restaurant business
+          for the past 15 years has honed my skills in teamwork, time-management
+          and dealing with ambiguity. These skills have allowed me to
+          successfully transition my career from a chef to a Full Stack
+          Developer.
+        </p>
+        <p>
+          I have a deep understanding of Semantic HTML, CSS/SCSS, JavaScript,
+          TypeScript, React.js, Node.js, jQuery, Git, REST API's, SQL and
+          relational databases.
+        </p>
+        <a
+          href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:74d2dc04-6db1-449c-b055-680709bf879c"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <h1>
+            <button>View Resume</button>
+          </h1>
+        </a>
+        <di className="about-tech">
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </di>
       </div>
-    </section>
+      <div>
+        <img src={profilePic} alt="profile-pic" />
+      </div>
+    </div>
   );
-};
+}
 
 export default About;

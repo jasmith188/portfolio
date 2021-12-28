@@ -1,141 +1,70 @@
-import React, { useState } from 'react';
+import React from 'react';
+import './Contact.css';
+import githubLogo from '../images/github.png';
+import gmailLogo from '../images/gmail.png';
+import instagramLogo from '../images/instagram.png';
+import linkedinLogo from '../images/linkedin.png';
 
-const Contact = ({ data }) => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [subject, setSubject] = useState('');
-  const [message, setMessage] = useState('');
-
-  if (data) {
-    var contactName = data.name;
-    var street = data.address.street;
-    var city = data.address.city;
-    var state = data.address.state;
-    // var zip = data.address.zip;
-    var phone = data.phone;
-    var contactEmail = data.email;
-    var contactMessage = data.contactmessage;
-  }
-
-  const submitForm = () => {
-    window.open(
-      `mailto:${contactEmail}?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-        email
-      )}): ${encodeURIComponent(message)}`
-    );
-  };
-
+const Contact = () => {
   return (
-    <section id="contact">
-      <div className="row section-head">
-        <div className="two columns header-col">
-          <h1>
-            <span>Get In Touch.</span>
-          </h1>
-        </div>
-
-        <div className="ten columns">
-          <p className="lead">{contactMessage}</p>
-        </div>
-      </div>
-
-      <div className="row">
-        <div className="eight columns">
-          <form onSubmit={submitForm}>
-            <fieldset>
-              <div>
-                <label htmlFor="contactName">
-                  Name <span className="required">*</span>
-                </label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={name}
-                  size="35"
-                  id="contactName"
-                  name="contactName"
-                  onChange={(e) => setName(e.target.value)}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="contactEmail">
-                  Email <span className="required">*</span>
-                </label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={email}
-                  size="35"
-                  id="contactEmail"
-                  name="contactEmail"
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="contactSubject">Subject</label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={subject}
-                  size="35"
-                  id="contactSubject"
-                  name="contactSubject"
-                  onChange={(e) => setSubject(e.target.value)}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="contactMessage">
-                  Message <span className="required">*</span>
-                </label>
-                <textarea
-                  cols="50"
-                  rows="15"
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                  id="contactMessage"
-                  name="contactMessage"
-                ></textarea>
-              </div>
-
-              <div>
-                <button onClick={submitForm} type="submit" className="submit">
-                  Submit
-                </button>
-              </div>
-            </fieldset>
-          </form>
-
-          <div id="message-warning"> Error boy</div>
-          <div id="message-success">
-            <i className="fa fa-check"></i>Your message was sent, thank you!
-            <br />
+    <div className="form-wrapper" id="contact">
+      <h1>Contact Me</h1>
+      <div className="form-container">
+        <form name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
+          <p>
+            <label htmlFor="name">Your Name</label> <br />
+            <input type="text" id="name" name="name" required />
+          </p>
+          <p>
+            <label htmlFor="email">Your Email</label> <br />
+            <input type="email" id="email" name="email" required />
+          </p>
+          <p>
+            <label htmlFor="message">Message</label> <br />
+            <textarea id="message" name="message" required></textarea>
+          </p>
+          <p>
+            <input type="submit" value="Submit" />
+          </p>
+        </form>
+        <div className="form-contact">
+          <div>
+            <a href="resume.com">
+              <h1>
+                <button>Download Resume</button>
+              </h1>
+            </a>
+          </div>
+          <div className="social-media-icons">
+            <a
+              href="https://github.com/jasmith188"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={githubLogo} alt="github-logo" />
+            </a>
+            <a href="mailto:jasmith.188@gmail.com">
+              <img src={gmailLogo} alt="gmail-logo" />
+            </a>
+            <a
+              href="http://instagram.com/jimmysmith812"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={instagramLogo} alt="instagram-logo" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jamessmith812/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedinLogo} alt="linkedin-logo" />
+            </a>
           </div>
         </div>
-
-        <aside className="four columns footer-widgets">
-          <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
-            <p className="address">
-              {contactName}
-              <br />
-              {contactEmail}
-              <br />
-              <br />
-              {street} <br />
-              {city}, {state}
-              {/* {zip} */}
-              <br />
-              <span>{phone}</span>
-            </p>
-          </div>
-        </aside>
       </div>
-    </section>
+    </div>
   );
 };
 

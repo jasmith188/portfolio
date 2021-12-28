@@ -1,5 +1,13 @@
-.submit {
-  background-color: black;
-  border-radius: 5px;
-  padding: 20px;
+body {
+  background-color: #222831;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+}
+p,
+li {
+  font-family: 'Jost', sans-serif;
 }

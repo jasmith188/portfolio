@@ -1,37 +1,20 @@
-import React, { useEffect, useState } from 'react';
 import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
-import Portfolio from './Components/Portfolio';
-import data from './Components/Data';
+import About from './components/About';
+import Contact from './components/Contact';
+import Header from './components/Header';
+// import Navbar from './components/Navbar';
+import Projects from './components/Projects';
 
-const App = () => {
-  const [resumeData, setResumeData] = useState({});
-
-  useEffect(() => {
-    fetch('/resumeData.json')
-      .then((res) => res.json())
-      .then((data) => {
-        setResumeData(data);
-      });
-  }, []);
+function App() {
   return (
-    <div className="App">
-      <Header data={resumeData.main} />
-      <About data={resumeData.main} />
-      <Resume data={resumeData.resume} />
-      {/* <Portfolio data={resumeData.portfolio} /> */}
-      <Portfolio projects={data.projects} />
-      
-      <Testimonials data={resumeData.testimonials} />
-      <Contact data={resumeData.main} />
-      <Footer data={resumeData.main} />
+    <div className="app">
+      <Header />
+      {/* <Navbar /> */}
+      <About />
+      <Projects />
+      <Contact />
     </div>
   );
-};
+}
 
 export default App;
